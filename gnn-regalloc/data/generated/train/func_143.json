@@ -1,0 +1,231 @@
+{
+  "graph_id": "func_143",
+  "num_registers": 16,
+  "nodes": [
+    {
+      "id": 0,
+      "degree": 16,
+      "live_range_length": 18,
+      "loop_depth": 0,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": 8,
+      "label_spill": false
+    },
+    {
+      "id": 1,
+      "degree": 9,
+      "live_range_length": 7,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": 7,
+      "label_spill": false
+    },
+    {
+      "id": 2,
+      "degree": 8,
+      "live_range_length": 5,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 4,
+      "label_spill": false
+    },
+    {
+      "id": 3,
+      "degree": 18,
+      "live_range_length": 19,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 6,
+      "label_spill": false
+    },
+    {
+      "id": 4,
+      "degree": 5,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 5,
+      "degree": 5,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 6,
+      "degree": 14,
+      "live_range_length": 15,
+      "loop_depth": 0,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": 5,
+      "label_spill": false
+    },
+    {
+      "id": 7,
+      "degree": 3,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": true,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 8,
+      "degree": 14,
+      "live_range_length": 14,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 4,
+      "label_spill": false
+    },
+    {
+      "id": 9,
+      "degree": 6,
+      "live_range_length": 5,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 10,
+      "degree": 4,
+      "live_range_length": 3,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 11,
+      "degree": 2,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 12,
+      "degree": 7,
+      "live_range_length": 3,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 13,
+      "degree": 1,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 14,
+      "degree": 0,
+      "live_range_length": 2,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 15,
+      "degree": 15,
+      "live_range_length": 15,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": 3,
+      "label_spill": false
+    },
+    {
+      "id": 16,
+      "degree": 8,
+      "live_range_length": 6,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 17,
+      "degree": 7,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 18,
+      "degree": 10,
+      "live_range_length": 8,
+      "loop_depth": 0,
+      "use_def_count": 5,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 19,
+      "degree": 9,
+      "live_range_length": 5,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 20,
+      "degree": 7,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 21,
+      "degree": 10,
+      "live_range_length": 7,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": 0,
+      "label_spill": false
+    }
+  ],
+  "interference_edges": [[0, 1],[0, 2],[0, 3],[0, 4],[0, 5],[0, 6],[0, 7],[0, 8],[0, 12],[0, 15],[0, 16],[0, 17],[0, 18],[0, 19],[0, 20],[0, 21],[1, 3],[1, 6],[1, 8],[1, 12],[1, 15],[1, 16],[1, 17],[1, 18],[2, 3],[2, 4],[2, 5],[2, 15],[2, 18],[2, 19],[2, 21],[3, 4],[3, 5],[3, 6],[3, 7],[3, 8],[3, 9],[3, 10],[3, 12],[3, 15],[3, 16],[3, 17],[3, 18],[3, 19],[3, 20],[3, 21],[4, 15],[4, 21],[5, 15],[5, 21],[6, 7],[6, 8],[6, 9],[6, 12],[6, 15],[6, 16],[6, 17],[6, 18],[6, 19],[6, 20],[6, 21],[8, 9],[8, 10],[8, 12],[8, 15],[8, 16],[8, 17],[8, 18],[8, 19],[8, 20],[8, 21],[9, 10],[9, 11],[9, 13],[10, 11],[12, 15],[12, 16],[15, 16],[15, 17],[15, 18],[15, 19],[15, 20],[15, 21],[16, 17],[18, 19],[18, 20],[18, 21],[19, 20],[19, 21]],
+  "move_edges": [
+    { "pair": [1, 15], "coalesce_safe": false },
+    { "pair": [7, 21], "coalesce_safe": true }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "graph_id": "func_396",
+  "num_registers": 4,
+  "nodes": [
+    {
+      "id": 0,
+      "degree": 6,
+      "live_range_length": 7,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 3,
+      "label_spill": false
+    },
+    {
+      "id": 1,
+      "degree": 2,
+      "live_range_length": 2,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 2,
+      "degree": 0,
+      "live_range_length": 2,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 3,
+      "degree": 5,
+      "live_range_length": 5,
+      "loop_depth": 1,
+      "use_def_count": 5,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 4,
+      "degree": 5,
+      "live_range_length": 5,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 5,
+      "degree": 5,
+      "live_range_length": 4,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 6,
+      "degree": 6,
+      "live_range_length": 4,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 7,
+      "degree": 9,
+      "live_range_length": 9,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 8,
+      "degree": 2,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 9,
+      "degree": 1,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 10,
+      "degree": 1,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    }
+  ],
+  "interference_edges": [[0, 1],[0, 3],[0, 4],[0, 5],[0, 6],[0, 7],[1, 7],[3, 4],[3, 5],[3, 6],[3, 7],[4, 5],[4, 6],[4, 7],[5, 6],[5, 7],[6, 7],[6, 8],[7, 8],[7, 9],[7, 10]],
+  "move_edges": [
+  ]
+}

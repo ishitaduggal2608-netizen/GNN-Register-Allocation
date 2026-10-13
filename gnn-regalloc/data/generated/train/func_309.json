@@ -1,0 +1,1007 @@
+{
+  "graph_id": "func_309",
+  "num_registers": 4,
+  "nodes": [
+    {
+      "id": 0,
+      "degree": 8,
+      "live_range_length": 2,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 1,
+      "degree": 28,
+      "live_range_length": 24,
+      "loop_depth": 1,
+      "use_def_count": 6,
+      "is_move_related": true,
+      "label_register": 3,
+      "label_spill": false
+    },
+    {
+      "id": 2,
+      "degree": 18,
+      "live_range_length": 7,
+      "loop_depth": 0,
+      "use_def_count": 5,
+      "is_move_related": true,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 3,
+      "degree": 19,
+      "live_range_length": 6,
+      "loop_depth": 0,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 4,
+      "degree": 87,
+      "live_range_length": 81,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 5,
+      "degree": 74,
+      "live_range_length": 67,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 6,
+      "degree": 17,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 7,
+      "degree": 46,
+      "live_range_length": 39,
+      "loop_depth": 0,
+      "use_def_count": 4,
+      "is_move_related": true,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 8,
+      "degree": 16,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 9,
+      "degree": 52,
+      "live_range_length": 46,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 10,
+      "degree": 24,
+      "live_range_length": 13,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": true,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 11,
+      "degree": 52,
+      "live_range_length": 43,
+      "loop_depth": 1,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 12,
+      "degree": 12,
+      "live_range_length": 5,
+      "loop_depth": 1,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 13,
+      "degree": 19,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 14,
+      "degree": 21,
+      "live_range_length": 6,
+      "loop_depth": 0,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 15,
+      "degree": 32,
+      "live_range_length": 28,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": true,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 16,
+      "degree": 19,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 17,
+      "degree": 40,
+      "live_range_length": 36,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 18,
+      "degree": 18,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 19,
+      "degree": 34,
+      "live_range_length": 31,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 20,
+      "degree": 20,
+      "live_range_length": 6,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 21,
+      "degree": 21,
+      "live_range_length": 7,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 22,
+      "degree": 20,
+      "live_range_length": 5,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": true,
+      "label_register": 3,
+      "label_spill": false
+    },
+    {
+      "id": 23,
+      "degree": 30,
+      "live_range_length": 25,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 24,
+      "degree": 21,
+      "live_range_length": 6,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 25,
+      "degree": 32,
+      "live_range_length": 20,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 26,
+      "degree": 21,
+      "live_range_length": 7,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 27,
+      "degree": 30,
+      "live_range_length": 16,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": 3,
+      "label_spill": false
+    },
+    {
+      "id": 28,
+      "degree": 16,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 29,
+      "degree": 43,
+      "live_range_length": 41,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 30,
+      "degree": 16,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 31,
+      "degree": 16,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 32,
+      "degree": 15,
+      "live_range_length": 3,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 33,
+      "degree": 19,
+      "live_range_length": 6,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": true,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 34,
+      "degree": 15,
+      "live_range_length": 6,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 35,
+      "degree": 15,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 36,
+      "degree": 41,
+      "live_range_length": 34,
+      "loop_depth": 1,
+      "use_def_count": 5,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 37,
+      "degree": 29,
+      "live_range_length": 20,
+      "loop_depth": 1,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 38,
+      "degree": 16,
+      "live_range_length": 3,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 39,
+      "degree": 18,
+      "live_range_length": 6,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 40,
+      "degree": 27,
+      "live_range_length": 17,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 41,
+      "degree": 16,
+      "live_range_length": 6,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 42,
+      "degree": 13,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 43,
+      "degree": 60,
+      "live_range_length": 60,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 44,
+      "degree": 73,
+      "live_range_length": 73,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 45,
+      "degree": 69,
+      "live_range_length": 67,
+      "loop_depth": 1,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 46,
+      "degree": 53,
+      "live_range_length": 52,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 47,
+      "degree": 12,
+      "live_range_length": 2,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 48,
+      "degree": 12,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 49,
+      "degree": 49,
+      "live_range_length": 48,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 50,
+      "degree": 53,
+      "live_range_length": 45,
+      "loop_depth": 1,
+      "use_def_count": 5,
+      "is_move_related": true,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 51,
+      "degree": 11,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 52,
+      "degree": 16,
+      "live_range_length": 6,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 53,
+      "degree": 12,
+      "live_range_length": 1,
+      "loop_depth": 1,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 54,
+      "degree": 12,
+      "live_range_length": 2,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 55,
+      "degree": 17,
+      "live_range_length": 7,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 3,
+      "label_spill": false
+    },
+    {
+      "id": 56,
+      "degree": 29,
+      "live_range_length": 22,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 57,
+      "degree": 13,
+      "live_range_length": 1,
+      "loop_depth": 1,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 58,
+      "degree": 18,
+      "live_range_length": 7,
+      "loop_depth": 1,
+      "use_def_count": 5,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 59,
+      "degree": 8,
+      "live_range_length": 2,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 60,
+      "degree": 13,
+      "live_range_length": 7,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 61,
+      "degree": 9,
+      "live_range_length": 2,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 62,
+      "degree": 10,
+      "live_range_length": 4,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 63,
+      "degree": 14,
+      "live_range_length": 7,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 64,
+      "degree": 9,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 65,
+      "degree": 12,
+      "live_range_length": 6,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 3,
+      "label_spill": false
+    },
+    {
+      "id": 66,
+      "degree": 13,
+      "live_range_length": 7,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 67,
+      "degree": 19,
+      "live_range_length": 8,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 68,
+      "degree": 9,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 69,
+      "degree": 9,
+      "live_range_length": 3,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 70,
+      "degree": 9,
+      "live_range_length": 3,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 71,
+      "degree": 7,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 72,
+      "degree": 7,
+      "live_range_length": 5,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 73,
+      "degree": 12,
+      "live_range_length": 10,
+      "loop_depth": 1,
+      "use_def_count": 4,
+      "is_move_related": true,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 74,
+      "degree": 12,
+      "live_range_length": 9,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 75,
+      "degree": 17,
+      "live_range_length": 14,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 76,
+      "degree": 12,
+      "live_range_length": 7,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 77,
+      "degree": 23,
+      "live_range_length": 19,
+      "loop_depth": 1,
+      "use_def_count": 5,
+      "is_move_related": false,
+      "label_register": 3,
+      "label_spill": false
+    },
+    {
+      "id": 78,
+      "degree": 42,
+      "live_range_length": 34,
+      "loop_depth": 0,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 79,
+      "degree": 7,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 80,
+      "degree": 12,
+      "live_range_length": 7,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 81,
+      "degree": 8,
+      "live_range_length": 1,
+      "loop_depth": 1,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 82,
+      "degree": 10,
+      "live_range_length": 4,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 83,
+      "degree": 10,
+      "live_range_length": 3,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 84,
+      "degree": 10,
+      "live_range_length": 5,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 85,
+      "degree": 6,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 86,
+      "degree": 5,
+      "live_range_length": 2,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 87,
+      "degree": 9,
+      "live_range_length": 6,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 88,
+      "degree": 9,
+      "live_range_length": 6,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 89,
+      "degree": 14,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 90,
+      "degree": 7,
+      "live_range_length": 4,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 91,
+      "degree": 9,
+      "live_range_length": 6,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 92,
+      "degree": 6,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 93,
+      "degree": 6,
+      "live_range_length": 4,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 94,
+      "degree": 4,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 95,
+      "degree": 4,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 96,
+      "degree": 2,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 97,
+      "degree": 1,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 98,
+      "degree": 0,
+      "live_range_length": 2,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    }
+  ],
+  "interference_edges": [[0, 15],[0, 17],[0, 19],[0, 29],[0, 43],[0, 44],[0, 46],[0, 49],[1, 2],[1, 3],[1, 4],[1, 5],[1, 6],[1, 7],[1, 8],[1, 9],[1, 11],[1, 12],[1, 13],[1, 14],[1, 15],[1, 16],[1, 17],[1, 19],[1, 23],[1, 29],[1, 34],[1, 43],[1, 44],[1, 45],[1, 46],[1, 49],[1, 56],[1, 67],[1, 78],[1, 89],[2, 3],[2, 4],[2, 5],[2, 6],[2, 15],[2, 17],[2, 19],[2, 23],[2, 29],[2, 43],[2, 44],[2, 45],[2, 46],[2, 49],[2, 56],[2, 67],[2, 78],[3, 4],[3, 5],[3, 6],[3, 7],[3, 15],[3, 17],[3, 19],[3, 23],[3, 29],[3, 43],[3, 44],[3, 45],[3, 46],[3, 49],[3, 56],[3, 67],[3, 78],[4, 5],[4, 6],[4, 7],[4, 8],[4, 9],[4, 10],[4, 11],[4, 13],[4, 14],[4, 15],[4, 16],[4, 17],[4, 18],[4, 19],[4, 20],[4, 21],[4, 22],[4, 23],[4, 24],[4, 25],[4, 26],[4, 27],[4, 28],[4, 29],[4, 30],[4, 31],[4, 32],[4, 33],[4, 35],[4, 36],[4, 37],[4, 38],[4, 39],[4, 40],[4, 41],[4, 42],[4, 43],[4, 44],[4, 45],[4, 46],[4, 47],[4, 48],[4, 49],[4, 50],[4, 51],[4, 52],[4, 53],[4, 54],[4, 55],[4, 56],[4, 57],[4, 58],[4, 59],[4, 60],[4, 61],[4, 62],[4, 63],[4, 64],[4, 65],[4, 66],[4, 67],[4, 68],[4, 69],[4, 70],[4, 71],[4, 72],[4, 73],[4, 74],[4, 75],[4, 76],[4, 77],[4, 78],[4, 79],[4, 80],[4, 81],[4, 82],[4, 83],[4, 84],[4, 85],[4, 86],[4, 87],[4, 88],[4, 90],[4, 91],[5, 6],[5, 7],[5, 8],[5, 9],[5, 10],[5, 11],[5, 13],[5, 14],[5, 15],[5, 16],[5, 17],[5, 18],[5, 19],[5, 20],[5, 21],[5, 22],[5, 23],[5, 24],[5, 25],[5, 26],[5, 27],[5, 28],[5, 29],[5, 30],[5, 31],[5, 32],[5, 33],[5, 35],[5, 36],[5, 37],[5, 38],[5, 39],[5, 40],[5, 41],[5, 42],[5, 43],[5, 44],[5, 45],[5, 46],[5, 47],[5, 48],[5, 49],[5, 50],[5, 51],[5, 52],[5, 53],[5, 54],[5, 55],[5, 56],[5, 57],[5, 58],[5, 59],[5, 60],[5, 61],[5, 62],[5, 63],[5, 64],[5, 65],[5, 66],[5, 67],[5, 68],[5, 69],[5, 70],[5, 71],[5, 72],[5, 73],[5, 74],[5, 75],[5, 76],[5, 78],[6, 15],[6, 17],[6, 19],[6, 23],[6, 29],[6, 43],[6, 44],[6, 45],[6, 46],[6, 49],[6, 56],[6, 78],[7, 8],[7, 9],[7, 10],[7, 11],[7, 13],[7, 14],[7, 15],[7, 16],[7, 17],[7, 18],[7, 19],[7, 20],[7, 21],[7, 22],[7, 23],[7, 24],[7, 25],[7, 26],[7, 27],[7, 28],[7, 29],[7, 30],[7, 31],[7, 32],[7, 33],[7, 35],[7, 36],[7, 37],[7, 38],[7, 39],[7, 40],[7, 41],[7, 42],[7, 43],[7, 44],[7, 45],[7, 46],[7, 47],[7, 48],[7, 49],[7, 56],[7, 78],[8, 15],[8, 17],[8, 19],[8, 23],[8, 29],[8, 43],[8, 44],[8, 45],[8, 46],[8, 49],[8, 56],[8, 78],[9, 10],[9, 11],[9, 13],[9, 14],[9, 15],[9, 16],[9, 17],[9, 18],[9, 19],[9, 20],[9, 21],[9, 22],[9, 23],[9, 24],[9, 25],[9, 26],[9, 27],[9, 28],[9, 29],[9, 30],[9, 31],[9, 32],[9, 33],[9, 35],[9, 36],[9, 37],[9, 38],[9, 39],[9, 40],[9, 41],[9, 42],[9, 43],[9, 44],[9, 45],[9, 46],[9, 47],[9, 48],[9, 49],[9, 50],[9, 51],[9, 52],[9, 53],[9, 54],[9, 55],[9, 56],[9, 57],[9, 58],[9, 78],[10, 11],[10, 13],[10, 14],[10, 15],[10, 16],[10, 17],[10, 18],[10, 19],[10, 20],[10, 21],[10, 22],[10, 23],[10, 29],[10, 43],[10, 44],[10, 45],[10, 46],[10, 49],[10, 56],[10, 78],[11, 13],[11, 14],[11, 15],[11, 16],[11, 17],[11, 18],[11, 19],[11, 20],[11, 21],[11, 22],[11, 23],[11, 24],[11, 25],[11, 26],[11, 27],[11, 28],[11, 29],[11, 30],[11, 31],[11, 32],[11, 33],[11, 35],[11, 36],[11, 37],[11, 38],[11, 39],[11, 40],[11, 41],[11, 42],[11, 43],[11, 44],[11, 45],[11, 46],[11, 47],[11, 48],[11, 49],[11, 50],[11, 51],[11, 52],[11, 53],[11, 54],[11, 55],[11, 56],[11, 57],[11, 58],[11, 78],[12, 15],[12, 17],[12, 19],[12, 23],[12, 29],[12, 34],[12, 43],[12, 44],[12, 45],[12, 46],[12, 49],[13, 15],[13, 17],[13, 19],[13, 23],[13, 29],[13, 43],[13, 44],[13, 45],[13, 46],[13, 49],[13, 56],[13, 78],[14, 15],[14, 16],[14, 17],[14, 18],[14, 19],[14, 23],[14, 29],[14, 43],[14, 44],[14, 45],[14, 46],[14, 49],[14, 56],[14, 78],[15, 16],[15, 17],[15, 18],[15, 19],[15, 20],[15, 23],[15, 29],[15, 34],[15, 43],[15, 44],[15, 45],[15, 46],[15, 49],[15, 56],[15, 67],[15, 78],[15, 89],[16, 19],[16, 23],[16, 29],[16, 43],[16, 44],[16, 45],[16, 46],[16, 49],[16, 56],[16, 78],[17, 18],[17, 19],[17, 20],[17, 21],[17, 22],[17, 23],[17, 24],[17, 25],[17, 26],[17, 27],[17, 28],[17, 29],[17, 30],[17, 31],[17, 34],[17, 43],[17, 44],[17, 45],[17, 46],[17, 49],[17, 56],[17, 67],[17, 78],[17, 89],[18, 23],[18, 29],[18, 43],[18, 44],[18, 45],[18, 46],[18, 49],[18, 56],[18, 78],[19, 20],[19, 21],[19, 22],[19, 23],[19, 24],[19, 29],[19, 34],[19, 43],[19, 44],[19, 45],[19, 46],[19, 49],[19, 56],[19, 67],[19, 78],[19, 89],[20, 21],[20, 22],[20, 24],[20, 25],[20, 29],[20, 43],[20, 44],[20, 45],[20, 46],[20, 49],[20, 78],[21, 22],[21, 24],[21, 25],[21, 26],[21, 27],[21, 29],[21, 43],[21, 44],[21, 45],[21, 46],[21, 49],[21, 78],[22, 24],[22, 25],[22, 26],[22, 29],[22, 43],[22, 44],[22, 45],[22, 46],[22, 49],[22, 78],[23, 29],[23, 34],[23, 43],[23, 44],[23, 45],[23, 46],[23, 49],[23, 56],[23, 67],[23, 78],[23, 89],[24, 25],[24, 26],[24, 27],[24, 28],[24, 29],[24, 43],[24, 44],[24, 45],[24, 46],[24, 49],[24, 78],[25, 26],[25, 27],[25, 28],[25, 29],[25, 30],[25, 31],[25, 32],[25, 33],[25, 35],[25, 36],[25, 37],[25, 38],[25, 39],[25, 40],[25, 41],[25, 42],[25, 43],[25, 44],[25, 45],[25, 46],[25, 49],[25, 78],[26, 27],[26, 28],[26, 29],[26, 30],[26, 31],[26, 43],[26, 44],[26, 45],[26, 46],[26, 49],[26, 78],[27, 28],[27, 29],[27, 30],[27, 31],[27, 32],[27, 33],[27, 35],[27, 36],[27, 37],[27, 38],[27, 39],[27, 40],[27, 41],[27, 42],[27, 43],[27, 44],[27, 45],[27, 46],[27, 49],[27, 78],[28, 43],[28, 44],[28, 45],[28, 46],[28, 49],[28, 78],[29, 30],[29, 31],[29, 32],[29, 33],[29, 34],[29, 35],[29, 43],[29, 44],[29, 45],[29, 46],[29, 49],[29, 56],[29, 67],[29, 78],[29, 89],[30, 43],[30, 44],[30, 45],[30, 46],[30, 49],[30, 78],[31, 43],[31, 44],[31, 45],[31, 46],[31, 49],[31, 78],[32, 33],[32, 43],[32, 44],[32, 45],[32, 46],[32, 49],[32, 78],[33, 35],[33, 36],[33, 37],[33, 38],[33, 43],[33, 44],[33, 45],[33, 46],[33, 49],[33, 78],[34, 43],[34, 44],[34, 45],[34, 46],[34, 49],[34, 56],[34, 67],[34, 78],[35, 43],[35, 44],[35, 45],[35, 46],[35, 49],[35, 78],[36, 37],[36, 38],[36, 39],[36, 40],[36, 41],[36, 42],[36, 43],[36, 44],[36, 45],[36, 46],[36, 47],[36, 48],[36, 49],[36, 50],[36, 51],[36, 52],[36, 53],[36, 54],[36, 55],[36, 57],[36, 58],[36, 59],[36, 60],[36, 61],[36, 62],[36, 63],[36, 64],[36, 65],[36, 66],[36, 68],[36, 69],[36, 70],[36, 71],[37, 38],[37, 39],[37, 40],[37, 41],[37, 42],[37, 43],[37, 44],[37, 45],[37, 46],[37, 47],[37, 48],[37, 49],[37, 50],[37, 51],[37, 52],[37, 53],[37, 54],[37, 55],[37, 57],[37, 58],[38, 39],[38, 43],[38, 44],[38, 45],[38, 46],[38, 49],[39, 40],[39, 41],[39, 42],[39, 43],[39, 44],[39, 45],[39, 46],[39, 49],[40, 41],[40, 42],[40, 43],[40, 44],[40, 45],[40, 46],[40, 47],[40, 48],[40, 49],[40, 50],[40, 51],[40, 52],[40, 53],[40, 54],[40, 55],[40, 57],[40, 58],[41, 42],[41, 43],[41, 44],[41, 45],[41, 46],[42, 45],[43, 44],[43, 45],[43, 46],[43, 47],[43, 48],[43, 49],[43, 50],[43, 51],[43, 52],[43, 53],[43, 54],[43, 55],[43, 56],[43, 57],[43, 58],[43, 67],[43, 78],[43, 89],[44, 45],[44, 46],[44, 47],[44, 48],[44, 49],[44, 50],[44, 51],[44, 52],[44, 53],[44, 54],[44, 55],[44, 56],[44, 57],[44, 58],[44, 59],[44, 60],[44, 61],[44, 62],[44, 63],[44, 64],[44, 65],[44, 66],[44, 67],[44, 68],[44, 69],[44, 70],[44, 71],[44, 72],[44, 78],[44, 89],[45, 46],[45, 47],[45, 48],[45, 49],[45, 50],[45, 51],[45, 52],[45, 53],[45, 54],[45, 55],[45, 56],[45, 57],[45, 58],[45, 59],[45, 60],[45, 61],[45, 62],[45, 63],[45, 64],[45, 65],[45, 66],[45, 67],[45, 68],[45, 78],[45, 89],[46, 47],[46, 48],[46, 49],[46, 50],[46, 56],[46, 67],[46, 78],[46, 89],[49, 56],[49, 67],[49, 78],[49, 89],[50, 51],[50, 52],[50, 53],[50, 54],[50, 55],[50, 57],[50, 58],[50, 59],[50, 60],[50, 61],[50, 62],[50, 63],[50, 64],[50, 65],[50, 66],[50, 68],[50, 69],[50, 70],[50, 71],[50, 72],[50, 73],[50, 74],[50, 75],[50, 76],[50, 77],[50, 79],[50, 80],[50, 81],[50, 82],[50, 83],[50, 84],[50, 85],[50, 86],[50, 87],[50, 88],[50, 90],[50, 92],[50, 93],[50, 94],[50, 95],[50, 96],[50, 97],[52, 53],[52, 54],[52, 55],[52, 57],[52, 58],[55, 57],[55, 58],[55, 59],[55, 60],[55, 61],[56, 67],[56, 78],[56, 89],[58, 59],[58, 60],[58, 61],[58, 62],[58, 63],[60, 61],[60, 62],[60, 63],[60, 64],[60, 65],[62, 63],[62, 64],[63, 64],[63, 65],[63, 66],[63, 68],[63, 69],[65, 66],[65, 68],[65, 69],[65, 70],[66, 68],[66, 69],[66, 70],[66, 71],[66, 72],[67, 78],[67, 89],[69, 70],[70, 71],[72, 73],[72, 75],[73, 74],[73, 76],[73, 77],[73, 79],[73, 80],[73, 81],[73, 82],[73, 83],[74, 75],[74, 76],[74, 77],[74, 79],[74, 80],[74, 81],[74, 82],[74, 83],[75, 76],[75, 77],[75, 79],[75, 80],[75, 81],[75, 82],[75, 83],[75, 84],[75, 85],[75, 86],[75, 87],[75, 88],[76, 77],[76, 79],[76, 80],[76, 81],[76, 82],[76, 83],[77, 79],[77, 80],[77, 81],[77, 82],[77, 83],[77, 84],[77, 85],[77, 86],[77, 87],[77, 88],[77, 90],[77, 91],[77, 92],[77, 93],[77, 94],[77, 95],[77, 96],[78, 89],[80, 81],[80, 82],[80, 83],[80, 84],[80, 85],[82, 83],[82, 84],[83, 84],[84, 85],[84, 86],[84, 87],[87, 88],[87, 90],[87, 91],[87, 92],[88, 90],[88, 91],[88, 92],[88, 93],[90, 91],[90, 92],[91, 92],[91, 93],[91, 94],[91, 95],[93, 94],[93, 95]],
+  "move_edges": [
+    { "pair": [1, 10], "coalesce_safe": false },
+    { "pair": [1, 15], "coalesce_safe": false },
+    { "pair": [2, 7], "coalesce_safe": false },
+    { "pair": [22, 27], "coalesce_safe": false },
+    { "pair": [33, 39], "coalesce_safe": false },
+    { "pair": [50, 91], "coalesce_safe": false },
+    { "pair": [72, 74], "coalesce_safe": false },
+    { "pair": [73, 75], "coalesce_safe": false }
+  ]
+}

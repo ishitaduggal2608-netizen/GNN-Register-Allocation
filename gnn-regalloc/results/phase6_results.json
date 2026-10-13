@@ -1,0 +1,276 @@
+{
+  "config": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "epochs": 1,
+    "batch_size": 4,
+    "hidden_channels": 64,
+    "num_layers": 3,
+    "dropout": 0.3,
+    "learning_rate": 0.001,
+    "features": [
+      "degree",
+      "live_range_length",
+      "loop_depth",
+      "use_def_count",
+      "move_related"
+    ]
+  },
+  "models": {
+    "gcn": {
+      "scores": [
+        0.4533333333333333,
+        0.5945945945945946,
+        0.417910447761194
+      ],
+      "mean_f1": 0.48861279189637397,
+      "std_f1": 0.07632300694171514,
+      "runs": [
+        {
+          "seed": 0,
+          "best_val_f1": 0.41975308641975306,
+          "test_precision": 0.8947368421052632,
+          "test_recall": 0.30357142857142855,
+          "test_f1": 0.4533333333333333
+        },
+        {
+          "seed": 1,
+          "best_val_f1": 0.6071428571428571,
+          "test_precision": 0.4782608695652174,
+          "test_recall": 0.7857142857142857,
+          "test_f1": 0.5945945945945946
+        },
+        {
+          "seed": 2,
+          "best_val_f1": 0.3591549295774648,
+          "test_precision": 0.2641509433962264,
+          "test_recall": 1.0,
+          "test_f1": 0.417910447761194
+        }
+      ]
+    },
+    "sage": {
+      "scores": [
+        0.5042016806722689,
+        0.4383561643835616,
+        0.6428571428571429
+      ],
+      "mean_f1": 0.5284716626376578,
+      "std_f1": 0.08523276587327695,
+      "runs": [
+        {
+          "seed": 0,
+          "best_val_f1": 0.528,
+          "test_precision": 0.47619047619047616,
+          "test_recall": 0.5357142857142857,
+          "test_f1": 0.5042016806722689
+        },
+        {
+          "seed": 1,
+          "best_val_f1": 0.27692307692307694,
+          "test_precision": 0.9411764705882353,
+          "test_recall": 0.2857142857142857,
+          "test_f1": 0.4383561643835616
+        },
+        {
+          "seed": 2,
+          "best_val_f1": 0.6,
+          "test_precision": 0.9642857142857143,
+          "test_recall": 0.48214285714285715,
+          "test_f1": 0.6428571428571429
+        }
+      ]
+    },
+    "gat": {
+      "scores": [
+        0.0,
+        0.417910447761194,
+        0.0
+      ],
+      "mean_f1": 0.13930348258706468,
+      "std_f1": 0.19700487436043115,
+      "runs": [
+        {
+          "seed": 0,
+          "best_val_f1": 0.0,
+          "test_precision": 0.0,
+          "test_recall": 0.0,
+          "test_f1": 0.0
+        },
+        {
+          "seed": 1,
+          "best_val_f1": 0.3591549295774648,
+          "test_precision": 0.2641509433962264,
+          "test_recall": 1.0,
+          "test_f1": 0.417910447761194
+        },
+        {
+          "seed": 2,
+          "best_val_f1": 0.0,
+          "test_precision": 0.0,
+          "test_recall": 0.0,
+          "test_f1": 0.0
+        }
+      ]
+    }
+  },
+  "ablations": {
+    "all_features": {
+      "scores": [
+        0.5042016806722689,
+        0.4383561643835616,
+        0.6428571428571429
+      ],
+      "mean_f1": 0.5284716626376578,
+      "std_f1": 0.08523276587327695,
+      "runs": [
+        {
+          "seed": 0,
+          "best_val_f1": 0.528,
+          "test_precision": 0.47619047619047616,
+          "test_recall": 0.5357142857142857,
+          "test_f1": 0.5042016806722689
+        },
+        {
+          "seed": 1,
+          "best_val_f1": 0.27692307692307694,
+          "test_precision": 0.9411764705882353,
+          "test_recall": 0.2857142857142857,
+          "test_f1": 0.4383561643835616
+        },
+        {
+          "seed": 2,
+          "best_val_f1": 0.6,
+          "test_precision": 0.9642857142857143,
+          "test_recall": 0.48214285714285715,
+          "test_f1": 0.6428571428571429
+        }
+      ],
+      "feature_names": [
+        "degree",
+        "live_range_length",
+        "loop_depth",
+        "use_def_count",
+        "move_related"
+      ]
+    },
+    "no_loop_depth": {
+      "scores": [
+        0.4444444444444444,
+        0.03389830508474576,
+        0.5647058823529412
+      ],
+      "mean_f1": 0.3476828772940438,
+      "std_f1": 0.22724622722117072,
+      "runs": [
+        {
+          "seed": 0,
+          "best_val_f1": 0.4,
+          "test_precision": 1.0,
+          "test_recall": 0.2857142857142857,
+          "test_f1": 0.4444444444444444
+        },
+        {
+          "seed": 1,
+          "best_val_f1": 0.0,
+          "test_precision": 0.3333333333333333,
+          "test_recall": 0.017857142857142856,
+          "test_f1": 0.03389830508474576
+        },
+        {
+          "seed": 2,
+          "best_val_f1": 0.475,
+          "test_precision": 0.8275862068965517,
+          "test_recall": 0.42857142857142855,
+          "test_f1": 0.5647058823529412
+        }
+      ],
+      "feature_names": [
+        "degree",
+        "live_range_length",
+        "use_def_count",
+        "move_related"
+      ]
+    },
+    "no_move_related": {
+      "scores": [
+        0.4533333333333333,
+        0.19047619047619047,
+        0.6153846153846154
+      ],
+      "mean_f1": 0.41973137973137975,
+      "std_f1": 0.17508780816862632,
+      "runs": [
+        {
+          "seed": 0,
+          "best_val_f1": 0.37142857142857144,
+          "test_precision": 0.8947368421052632,
+          "test_recall": 0.30357142857142855,
+          "test_f1": 0.4533333333333333
+        },
+        {
+          "seed": 1,
+          "best_val_f1": 0.07407407407407407,
+          "test_precision": 0.8571428571428571,
+          "test_recall": 0.10714285714285714,
+          "test_f1": 0.19047619047619047
+        },
+        {
+          "seed": 2,
+          "best_val_f1": 0.4878048780487805,
+          "test_precision": 0.8,
+          "test_recall": 0.5,
+          "test_f1": 0.6153846153846154
+        }
+      ],
+      "feature_names": [
+        "degree",
+        "live_range_length",
+        "loop_depth",
+        "use_def_count"
+      ]
+    },
+    "no_live_range_length": {
+      "scores": [
+        0.5066666666666667,
+        0.0,
+        0.6593406593406593
+      ],
+      "mean_f1": 0.3886691086691087,
+      "std_f1": 0.2818097396412269,
+      "runs": [
+        {
+          "seed": 0,
+          "best_val_f1": 0.463768115942029,
+          "test_precision": 1.0,
+          "test_recall": 0.3392857142857143,
+          "test_f1": 0.5066666666666667
+        },
+        {
+          "seed": 1,
+          "best_val_f1": 0.0,
+          "test_precision": 0.0,
+          "test_recall": 0.0,
+          "test_f1": 0.0
+        },
+        {
+          "seed": 2,
+          "best_val_f1": 0.47058823529411764,
+          "test_precision": 0.8571428571428571,
+          "test_recall": 0.5357142857142857,
+          "test_f1": 0.6593406593406593
+        }
+      ],
+      "feature_names": [
+        "degree",
+        "loop_depth",
+        "use_def_count",
+        "move_related"
+      ]
+    }
+  },
+  "best_architecture": "sage"
+}

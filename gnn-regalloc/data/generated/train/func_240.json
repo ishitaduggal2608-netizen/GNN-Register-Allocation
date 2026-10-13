@@ -1,0 +1,171 @@
+{
+  "graph_id": "func_240",
+  "num_registers": 4,
+  "nodes": [
+    {
+      "id": 0,
+      "degree": 4,
+      "live_range_length": 3,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 1,
+      "degree": 9,
+      "live_range_length": 7,
+      "loop_depth": 0,
+      "use_def_count": 6,
+      "is_move_related": false,
+      "label_register": 3,
+      "label_spill": false
+    },
+    {
+      "id": 2,
+      "degree": 3,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 3,
+      "degree": 13,
+      "live_range_length": 15,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": true,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 4,
+      "degree": 13,
+      "live_range_length": 15,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": true,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 5,
+      "degree": 2,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 6,
+      "degree": 1,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 7,
+      "degree": 0,
+      "live_range_length": 2,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 8,
+      "degree": 8,
+      "live_range_length": 7,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 9,
+      "degree": 5,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 10,
+      "degree": 7,
+      "live_range_length": 4,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 11,
+      "degree": 8,
+      "live_range_length": 5,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 12,
+      "degree": 6,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 13,
+      "degree": 11,
+      "live_range_length": 12,
+      "loop_depth": 0,
+      "use_def_count": 4,
+      "is_move_related": true,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 14,
+      "degree": 6,
+      "live_range_length": 4,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 15,
+      "degree": 4,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    }
+  ],
+  "interference_edges": [[0, 1],[0, 3],[0, 4],[0, 13],[1, 3],[1, 4],[1, 8],[1, 9],[1, 10],[1, 11],[1, 12],[1, 13],[2, 4],[2, 13],[2, 14],[3, 4],[3, 5],[3, 6],[3, 8],[3, 9],[3, 10],[3, 11],[3, 12],[3, 13],[3, 14],[3, 15],[4, 5],[4, 8],[4, 9],[4, 10],[4, 11],[4, 12],[4, 13],[4, 14],[4, 15],[8, 9],[8, 10],[8, 11],[8, 12],[8, 13],[9, 13],[10, 11],[10, 12],[10, 13],[11, 12],[11, 13],[11, 14],[13, 14],[13, 15],[14, 15]],
+  "move_edges": [
+    { "pair": [3, 14], "coalesce_safe": false },
+    { "pair": [4, 13], "coalesce_safe": false }
+  ]
+}

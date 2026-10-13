@@ -1,0 +1,1850 @@
+{
+  "graph_id": "func_181",
+  "num_registers": 8,
+  "nodes": [
+    {
+      "id": 0,
+      "degree": 111,
+      "live_range_length": 103,
+      "loop_depth": 1,
+      "use_def_count": 10,
+      "is_move_related": false,
+      "label_register": 7,
+      "label_spill": false
+    },
+    {
+      "id": 1,
+      "degree": 71,
+      "live_range_length": 45,
+      "loop_depth": 1,
+      "use_def_count": 5,
+      "is_move_related": false,
+      "label_register": 4,
+      "label_spill": false
+    },
+    {
+      "id": 2,
+      "degree": 94,
+      "live_range_length": 78,
+      "loop_depth": 1,
+      "use_def_count": 4,
+      "is_move_related": true,
+      "label_register": 6,
+      "label_spill": false
+    },
+    {
+      "id": 3,
+      "degree": 38,
+      "live_range_length": 1,
+      "loop_depth": 1,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 4,
+      "degree": 28,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 5,
+      "degree": 117,
+      "live_range_length": 111,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 6,
+      "degree": 117,
+      "live_range_length": 110,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 7,
+      "degree": 110,
+      "live_range_length": 103,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 8,
+      "degree": 35,
+      "live_range_length": 7,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 7,
+      "label_spill": false
+    },
+    {
+      "id": 9,
+      "degree": 35,
+      "live_range_length": 6,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 6,
+      "label_spill": false
+    },
+    {
+      "id": 10,
+      "degree": 33,
+      "live_range_length": 4,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 4,
+      "label_spill": false
+    },
+    {
+      "id": 11,
+      "degree": 35,
+      "live_range_length": 5,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 12,
+      "degree": 34,
+      "live_range_length": 3,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 13,
+      "degree": 132,
+      "live_range_length": 122,
+      "loop_depth": 1,
+      "use_def_count": 4,
+      "is_move_related": true,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 14,
+      "degree": 33,
+      "live_range_length": 1,
+      "loop_depth": 1,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 4,
+      "label_spill": false
+    },
+    {
+      "id": 15,
+      "degree": 34,
+      "live_range_length": 4,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 16,
+      "degree": 25,
+      "live_range_length": 2,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": true,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 17,
+      "degree": 26,
+      "live_range_length": 3,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": true,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 18,
+      "degree": 24,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 19,
+      "degree": 120,
+      "live_range_length": 116,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 20,
+      "degree": 23,
+      "live_range_length": 2,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 21,
+      "degree": 23,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 22,
+      "degree": 125,
+      "live_range_length": 122,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 23,
+      "degree": 21,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 24,
+      "degree": 155,
+      "live_range_length": 146,
+      "loop_depth": 1,
+      "use_def_count": 5,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 25,
+      "degree": 21,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 26,
+      "degree": 66,
+      "live_range_length": 52,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": 4,
+      "label_spill": false
+    },
+    {
+      "id": 27,
+      "degree": 25,
+      "live_range_length": 7,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 3,
+      "label_spill": false
+    },
+    {
+      "id": 28,
+      "degree": 23,
+      "live_range_length": 5,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 29,
+      "degree": 44,
+      "live_range_length": 26,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 5,
+      "label_spill": false
+    },
+    {
+      "id": 30,
+      "degree": 25,
+      "live_range_length": 7,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 31,
+      "degree": 23,
+      "live_range_length": 4,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": true,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 32,
+      "degree": 21,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 33,
+      "degree": 25,
+      "live_range_length": 7,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 34,
+      "degree": 20,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": true,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 35,
+      "degree": 129,
+      "live_range_length": 118,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 36,
+      "degree": 23,
+      "live_range_length": 6,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": true,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 37,
+      "degree": 24,
+      "live_range_length": 7,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 3,
+      "label_spill": false
+    },
+    {
+      "id": 38,
+      "degree": 19,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 39,
+      "degree": 24,
+      "live_range_length": 7,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 6,
+      "label_spill": false
+    },
+    {
+      "id": 40,
+      "degree": 21,
+      "live_range_length": 5,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 41,
+      "degree": 21,
+      "live_range_length": 6,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 42,
+      "degree": 23,
+      "live_range_length": 7,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 43,
+      "degree": 18,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 3,
+      "label_spill": false
+    },
+    {
+      "id": 44,
+      "degree": 52,
+      "live_range_length": 44,
+      "loop_depth": 0,
+      "use_def_count": 5,
+      "is_move_related": true,
+      "label_register": 3,
+      "label_spill": false
+    },
+    {
+      "id": 45,
+      "degree": 25,
+      "live_range_length": 11,
+      "loop_depth": 0,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": 6,
+      "label_spill": false
+    },
+    {
+      "id": 46,
+      "degree": 46,
+      "live_range_length": 7,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 47,
+      "degree": 15,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 48,
+      "degree": 32,
+      "live_range_length": 21,
+      "loop_depth": 0,
+      "use_def_count": 4,
+      "is_move_related": true,
+      "label_register": 3,
+      "label_spill": false
+    },
+    {
+      "id": 49,
+      "degree": 16,
+      "live_range_length": 3,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 50,
+      "degree": 15,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": true,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 51,
+      "degree": 15,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 52,
+      "degree": 22,
+      "live_range_length": 9,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 53,
+      "degree": 16,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 54,
+      "degree": 19,
+      "live_range_length": 5,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 55,
+      "degree": 18,
+      "live_range_length": 3,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": true,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 56,
+      "degree": 18,
+      "live_range_length": 4,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 5,
+      "label_spill": false
+    },
+    {
+      "id": 57,
+      "degree": 44,
+      "live_range_length": 5,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 58,
+      "degree": 16,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": true,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 59,
+      "degree": 17,
+      "live_range_length": 5,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 60,
+      "degree": 15,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 61,
+      "degree": 18,
+      "live_range_length": 7,
+      "loop_depth": 0,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 62,
+      "degree": 163,
+      "live_range_length": 161,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 63,
+      "degree": 17,
+      "live_range_length": 6,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 64,
+      "degree": 14,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 65,
+      "degree": 12,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 66,
+      "degree": 14,
+      "live_range_length": 5,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 67,
+      "degree": 11,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 68,
+      "degree": 96,
+      "live_range_length": 85,
+      "loop_depth": 1,
+      "use_def_count": 4,
+      "is_move_related": true,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 69,
+      "degree": 9,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 70,
+      "degree": 9,
+      "live_range_length": 3,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 71,
+      "degree": 12,
+      "live_range_length": 7,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 72,
+      "degree": 8,
+      "live_range_length": 2,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 73,
+      "degree": 9,
+      "live_range_length": 3,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 74,
+      "degree": 8,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 75,
+      "degree": 7,
+      "live_range_length": 2,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": true,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 76,
+      "degree": 170,
+      "live_range_length": 169,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": true,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 77,
+      "degree": 9,
+      "live_range_length": 6,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 78,
+      "degree": 7,
+      "live_range_length": 2,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": true,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 79,
+      "degree": 51,
+      "live_range_length": 21,
+      "loop_depth": 0,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": 3,
+      "label_spill": false
+    },
+    {
+      "id": 80,
+      "degree": 4,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 81,
+      "degree": 173,
+      "live_range_length": 175,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": true,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 82,
+      "degree": 176,
+      "live_range_length": 177,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 83,
+      "degree": 3,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 84,
+      "degree": 173,
+      "live_range_length": 173,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 85,
+      "degree": 7,
+      "live_range_length": 6,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 4,
+      "label_spill": false
+    },
+    {
+      "id": 86,
+      "degree": 5,
+      "live_range_length": 4,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 87,
+      "degree": 6,
+      "live_range_length": 4,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 88,
+      "degree": 4,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 89,
+      "degree": 3,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 90,
+      "degree": 43,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": true,
+      "label_register": 5,
+      "label_spill": false
+    },
+    {
+      "id": 91,
+      "degree": 1,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 92,
+      "degree": 0,
+      "live_range_length": 2,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": true,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 93,
+      "degree": 49,
+      "live_range_length": 20,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 94,
+      "degree": 41,
+      "live_range_length": 6,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 95,
+      "degree": 60,
+      "live_range_length": 29,
+      "loop_depth": 1,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 96,
+      "degree": 173,
+      "live_range_length": 172,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": true,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 97,
+      "degree": 118,
+      "live_range_length": 111,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 98,
+      "degree": 42,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 99,
+      "degree": 51,
+      "live_range_length": 10,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 5,
+      "label_spill": false
+    },
+    {
+      "id": 100,
+      "degree": 147,
+      "live_range_length": 130,
+      "loop_depth": 1,
+      "use_def_count": 6,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 101,
+      "degree": 81,
+      "live_range_length": 52,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 102,
+      "degree": 47,
+      "live_range_length": 4,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 103,
+      "degree": 99,
+      "live_range_length": 73,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 104,
+      "degree": 79,
+      "live_range_length": 51,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 105,
+      "degree": 44,
+      "live_range_length": 8,
+      "loop_depth": 0,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": 5,
+      "label_spill": false
+    },
+    {
+      "id": 106,
+      "degree": 116,
+      "live_range_length": 95,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 107,
+      "degree": 111,
+      "live_range_length": 88,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 108,
+      "degree": 50,
+      "live_range_length": 4,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 109,
+      "degree": 59,
+      "live_range_length": 13,
+      "loop_depth": 1,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": 3,
+      "label_spill": false
+    },
+    {
+      "id": 110,
+      "degree": 55,
+      "live_range_length": 9,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 111,
+      "degree": 76,
+      "live_range_length": 44,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 112,
+      "degree": 54,
+      "live_range_length": 7,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 113,
+      "degree": 128,
+      "live_range_length": 104,
+      "loop_depth": 1,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 114,
+      "degree": 145,
+      "live_range_length": 121,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 115,
+      "degree": 109,
+      "live_range_length": 84,
+      "loop_depth": 1,
+      "use_def_count": 5,
+      "is_move_related": true,
+      "label_register": 5,
+      "label_spill": false
+    },
+    {
+      "id": 116,
+      "degree": 43,
+      "live_range_length": 6,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 6,
+      "label_spill": false
+    },
+    {
+      "id": 117,
+      "degree": 56,
+      "live_range_length": 7,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": true,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 118,
+      "degree": 54,
+      "live_range_length": 1,
+      "loop_depth": 1,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 119,
+      "degree": 160,
+      "live_range_length": 158,
+      "loop_depth": 1,
+      "use_def_count": 5,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 120,
+      "degree": 99,
+      "live_range_length": 89,
+      "loop_depth": 1,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 121,
+      "degree": 51,
+      "live_range_length": 5,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": true,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 122,
+      "degree": 48,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 123,
+      "degree": 73,
+      "live_range_length": 49,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 124,
+      "degree": 72,
+      "live_range_length": 47,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 125,
+      "degree": 70,
+      "live_range_length": 48,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 126,
+      "degree": 46,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 127,
+      "degree": 40,
+      "live_range_length": 2,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 128,
+      "degree": 47,
+      "live_range_length": 4,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 129,
+      "degree": 117,
+      "live_range_length": 109,
+      "loop_depth": 1,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 130,
+      "degree": 108,
+      "live_range_length": 97,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 131,
+      "degree": 90,
+      "live_range_length": 76,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 132,
+      "degree": 60,
+      "live_range_length": 19,
+      "loop_depth": 1,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": 4,
+      "label_spill": false
+    },
+    {
+      "id": 133,
+      "degree": 55,
+      "live_range_length": 10,
+      "loop_depth": 1,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": 3,
+      "label_spill": false
+    },
+    {
+      "id": 134,
+      "degree": 55,
+      "live_range_length": 9,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 135,
+      "degree": 109,
+      "live_range_length": 78,
+      "loop_depth": 1,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 136,
+      "degree": 50,
+      "live_range_length": 1,
+      "loop_depth": 1,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 137,
+      "degree": 54,
+      "live_range_length": 7,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 138,
+      "degree": 86,
+      "live_range_length": 64,
+      "loop_depth": 1,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 139,
+      "degree": 51,
+      "live_range_length": 1,
+      "loop_depth": 1,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 140,
+      "degree": 67,
+      "live_range_length": 26,
+      "loop_depth": 1,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 141,
+      "degree": 51,
+      "live_range_length": 1,
+      "loop_depth": 1,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 142,
+      "degree": 52,
+      "live_range_length": 3,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 143,
+      "degree": 84,
+      "live_range_length": 66,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 144,
+      "degree": 86,
+      "live_range_length": 69,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 145,
+      "degree": 49,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 146,
+      "degree": 52,
+      "live_range_length": 7,
+      "loop_depth": 0,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 147,
+      "degree": 48,
+      "live_range_length": 3,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 148,
+      "degree": 89,
+      "live_range_length": 72,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 149,
+      "degree": 59,
+      "live_range_length": 27,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 150,
+      "degree": 47,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 151,
+      "degree": 97,
+      "live_range_length": 65,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 152,
+      "degree": 47,
+      "live_range_length": 4,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 153,
+      "degree": 46,
+      "live_range_length": 2,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": true,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 154,
+      "degree": 118,
+      "live_range_length": 113,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 155,
+      "degree": 92,
+      "live_range_length": 78,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 156,
+      "degree": 44,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 157,
+      "degree": 110,
+      "live_range_length": 101,
+      "loop_depth": 1,
+      "use_def_count": 4,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 158,
+      "degree": 100,
+      "live_range_length": 90,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 159,
+      "degree": 40,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 160,
+      "degree": 89,
+      "live_range_length": 68,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 161,
+      "degree": 68,
+      "live_range_length": 40,
+      "loop_depth": 1,
+      "use_def_count": 6,
+      "is_move_related": false,
+      "label_register": 3,
+      "label_spill": false
+    },
+    {
+      "id": 162,
+      "degree": 37,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 163,
+      "degree": 37,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 164,
+      "degree": 141,
+      "live_range_length": 138,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 165,
+      "degree": 38,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 166,
+      "degree": 37,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 167,
+      "degree": 95,
+      "live_range_length": 85,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 168,
+      "degree": 36,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": true,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 169,
+      "degree": 96,
+      "live_range_length": 85,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 170,
+      "degree": 45,
+      "live_range_length": 12,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 6,
+      "label_spill": false
+    },
+    {
+      "id": 171,
+      "degree": 43,
+      "live_range_length": 4,
+      "loop_depth": 0,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 172,
+      "degree": 35,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 173,
+      "degree": 42,
+      "live_range_length": 10,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 4,
+      "label_spill": false
+    },
+    {
+      "id": 174,
+      "degree": 35,
+      "live_range_length": 1,
+      "loop_depth": 0,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 175,
+      "degree": 37,
+      "live_range_length": 5,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": true,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 176,
+      "degree": 59,
+      "live_range_length": 32,
+      "loop_depth": 1,
+      "use_def_count": 5,
+      "is_move_related": true,
+      "label_register": 2,
+      "label_spill": false
+    },
+    {
+      "id": 177,
+      "degree": 41,
+      "live_range_length": 7,
+      "loop_depth": 1,
+      "use_def_count": 2,
+      "is_move_related": false,
+      "label_register": 1,
+      "label_spill": false
+    },
+    {
+      "id": 178,
+      "degree": 41,
+      "live_range_length": 6,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": 0,
+      "label_spill": false
+    },
+    {
+      "id": 179,
+      "degree": 127,
+      "live_range_length": 124,
+      "loop_depth": 1,
+      "use_def_count": 3,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 180,
+      "degree": 38,
+      "live_range_length": 1,
+      "loop_depth": 1,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    },
+    {
+      "id": 181,
+      "degree": 38,
+      "live_range_length": 1,
+      "loop_depth": 1,
+      "use_def_count": 1,
+      "is_move_related": false,
+      "label_register": null,
+      "label_spill": true
+    }
+  ],
+  "interference_edges": [[0, 1],[0, 2],[0, 3],[0, 4],[0, 5],[0, 6],[0, 7],[0, 13],[0, 19],[0, 22],[0, 24],[0, 35],[0, 46],[0, 57],[0, 62],[0, 68],[0, 76],[0, 79],[0, 81],[0, 82],[0, 84],[0, 90],[0, 93],[0, 94],[0, 95],[0, 96],[0, 97],[0, 98],[0, 99],[0, 100],[0, 101],[0, 102],[0, 103],[0, 104],[0, 105],[0, 106],[0, 107],[0, 108],[0, 109],[0, 110],[0, 111],[0, 112],[0, 113],[0, 114],[0, 115],[0, 116],[0, 117],[0, 118],[0, 119],[0, 120],[0, 121],[0, 122],[0, 123],[0, 124],[0, 125],[0, 126],[0, 127],[0, 128],[0, 129],[0, 130],[0, 131],[0, 132],[0, 133],[0, 134],[0, 135],[0, 136],[0, 137],[0, 138],[0, 139],[0, 140],[0, 141],[0, 142],[0, 143],[0, 144],[0, 145],[0, 146],[0, 147],[0, 148],[0, 149],[0, 150],[0, 151],[0, 152],[0, 153],[0, 154],[0, 155],[0, 156],[0, 157],[0, 158],[0, 159],[0, 160],[0, 161],[0, 162],[0, 163],[0, 164],[0, 165],[0, 166],[0, 167],[0, 168],[0, 169],[0, 170],[0, 171],[0, 172],[0, 173],[0, 174],[0, 175],[0, 176],[0, 177],[0, 178],[0, 179],[0, 180],[0, 181],[1, 2],[1, 5],[1, 6],[1, 7],[1, 13],[1, 19],[1, 22],[1, 24],[1, 35],[1, 46],[1, 57],[1, 62],[1, 68],[1, 76],[1, 79],[1, 81],[1, 82],[1, 84],[1, 90],[1, 93],[1, 94],[1, 95],[1, 96],[1, 97],[1, 98],[1, 99],[1, 100],[1, 101],[1, 102],[1, 103],[1, 104],[1, 105],[1, 106],[1, 107],[1, 108],[1, 109],[1, 110],[1, 111],[1, 112],[1, 113],[1, 114],[1, 115],[1, 116],[1, 117],[1, 118],[1, 119],[1, 120],[1, 121],[1, 123],[1, 124],[1, 125],[1, 127],[1, 129],[1, 130],[1, 131],[1, 138],[1, 143],[1, 144],[1, 148],[1, 149],[1, 154],[1, 155],[1, 157],[1, 158],[1, 160],[1, 164],[1, 167],[1, 169],[1, 171],[1, 179],[2, 5],[2, 6],[2, 7],[2, 13],[2, 19],[2, 22],[2, 24],[2, 35],[2, 46],[2, 57],[2, 62],[2, 68],[2, 76],[2, 79],[2, 81],[2, 82],[2, 84],[2, 90],[2, 93],[2, 95],[2, 96],[2, 97],[2, 98],[2, 99],[2, 100],[2, 101],[2, 102],[2, 103],[2, 104],[2, 106],[2, 107],[2, 108],[2, 109],[2, 110],[2, 111],[2, 112],[2, 113],[2, 114],[2, 115],[2, 117],[2, 118],[2, 119],[2, 120],[2, 121],[2, 122],[2, 123],[2, 124],[2, 125],[2, 126],[2, 128],[2, 129],[2, 130],[2, 131],[2, 132],[2, 133],[2, 134],[2, 135],[2, 136],[2, 137],[2, 138],[2, 139],[2, 140],[2, 141],[2, 142],[2, 143],[2, 144],[2, 145],[2, 146],[2, 147],[2, 148],[2, 149],[2, 150],[2, 151],[2, 152],[2, 153],[2, 154],[2, 155],[2, 156],[2, 157],[2, 158],[2, 159],[2, 160],[2, 161],[2, 162],[2, 163],[2, 164],[2, 165],[2, 166],[2, 167],[2, 169],[2, 171],[2, 179],[3, 5],[3, 6],[3, 7],[3, 13],[3, 19],[3, 22],[3, 24],[3, 35],[3, 62],[3, 76],[3, 81],[3, 82],[3, 84],[3, 96],[3, 97],[3, 100],[3, 103],[3, 106],[3, 107],[3, 113],[3, 114],[3, 115],[3, 119],[3, 129],[3, 130],[3, 135],[3, 151],[3, 154],[3, 157],[3, 161],[3, 164],[3, 170],[3, 173],[3, 176],[3, 177],[3, 178],[3, 179],[4, 13],[4, 19],[4, 22],[4, 24],[4, 35],[4, 62],[4, 76],[4, 81],[4, 82],[4, 84],[4, 96],[4, 97],[4, 100],[4, 106],[4, 107],[4, 113],[4, 114],[4, 115],[4, 119],[4, 129],[4, 135],[4, 151],[4, 154],[4, 161],[4, 164],[4, 176],[4, 179],[5, 6],[5, 7],[5, 8],[5, 9],[5, 10],[5, 11],[5, 12],[5, 13],[5, 14],[5, 15],[5, 19],[5, 22],[5, 24],[5, 35],[5, 46],[5, 57],[5, 62],[5, 68],[5, 76],[5, 79],[5, 81],[5, 82],[5, 84],[5, 90],[5, 93],[5, 94],[5, 95],[5, 96],[5, 97],[5, 98],[5, 99],[5, 100],[5, 101],[5, 102],[5, 103],[5, 104],[5, 105],[5, 106],[5, 107],[5, 108],[5, 109],[5, 110],[5, 111],[5, 112],[5, 113],[5, 114],[5, 115],[5, 116],[5, 117],[5, 118],[5, 119],[5, 120],[5, 121],[5, 122],[5, 123],[5, 124],[5, 125],[5, 126],[5, 127],[5, 128],[5, 129],[5, 130],[5, 131],[5, 132],[5, 133],[5, 134],[5, 135],[5, 136],[5, 137],[5, 138],[5, 139],[5, 140],[5, 141],[5, 142],[5, 143],[5, 144],[5, 145],[5, 146],[5, 147],[5, 148],[5, 149],[5, 150],[5, 151],[5, 152],[5, 153],[5, 154],[5, 155],[5, 156],[5, 157],[5, 158],[5, 159],[5, 160],[5, 161],[5, 162],[5, 163],[5, 164],[5, 165],[5, 166],[5, 167],[5, 168],[5, 169],[5, 170],[5, 171],[5, 172],[5, 173],[5, 174],[5, 175],[5, 176],[5, 177],[5, 178],[5, 179],[5, 180],[5, 181],[6, 7],[6, 8],[6, 9],[6, 10],[6, 11],[6, 12],[6, 13],[6, 14],[6, 15],[6, 19],[6, 22],[6, 24],[6, 35],[6, 46],[6, 57],[6, 62],[6, 68],[6, 76],[6, 79],[6, 81],[6, 82],[6, 84],[6, 90],[6, 93],[6, 94],[6, 95],[6, 96],[6, 97],[6, 98],[6, 99],[6, 100],[6, 101],[6, 102],[6, 103],[6, 104],[6, 105],[6, 106],[6, 107],[6, 108],[6, 109],[6, 110],[6, 111],[6, 112],[6, 113],[6, 114],[6, 115],[6, 116],[6, 117],[6, 118],[6, 119],[6, 120],[6, 121],[6, 122],[6, 123],[6, 124],[6, 125],[6, 126],[6, 127],[6, 128],[6, 129],[6, 130],[6, 131],[6, 132],[6, 133],[6, 134],[6, 135],[6, 136],[6, 137],[6, 138],[6, 139],[6, 140],[6, 141],[6, 142],[6, 143],[6, 144],[6, 145],[6, 146],[6, 147],[6, 148],[6, 149],[6, 150],[6, 151],[6, 152],[6, 153],[6, 154],[6, 155],[6, 156],[6, 157],[6, 158],[6, 159],[6, 160],[6, 161],[6, 162],[6, 163],[6, 164],[6, 165],[6, 166],[6, 167],[6, 168],[6, 169],[6, 170],[6, 171],[6, 172],[6, 173],[6, 174],[6, 175],[6, 176],[6, 177],[6, 178],[6, 179],[6, 180],[6, 181],[7, 13],[7, 19],[7, 22],[7, 24],[7, 35],[7, 46],[7, 57],[7, 62],[7, 68],[7, 76],[7, 79],[7, 81],[7, 82],[7, 84],[7, 90],[7, 93],[7, 94],[7, 95],[7, 96],[7, 97],[7, 98],[7, 99],[7, 100],[7, 101],[7, 102],[7, 103],[7, 104],[7, 105],[7, 106],[7, 107],[7, 108],[7, 109],[7, 110],[7, 111],[7, 112],[7, 113],[7, 114],[7, 115],[7, 116],[7, 117],[7, 118],[7, 119],[7, 120],[7, 121],[7, 122],[7, 123],[7, 124],[7, 125],[7, 126],[7, 127],[7, 128],[7, 129],[7, 130],[7, 131],[7, 132],[7, 133],[7, 134],[7, 135],[7, 136],[7, 137],[7, 138],[7, 139],[7, 140],[7, 141],[7, 142],[7, 143],[7, 144],[7, 145],[7, 146],[7, 147],[7, 148],[7, 149],[7, 150],[7, 151],[7, 152],[7, 153],[7, 154],[7, 155],[7, 156],[7, 157],[7, 158],[7, 159],[7, 160],[7, 161],[7, 162],[7, 163],[7, 164],[7, 165],[7, 166],[7, 167],[7, 168],[7, 169],[7, 170],[7, 171],[7, 172],[7, 173],[7, 174],[7, 175],[7, 176],[7, 177],[7, 178],[7, 179],[7, 180],[7, 181],[8, 9],[8, 10],[8, 11],[8, 12],[8, 13],[8, 14],[8, 15],[8, 19],[8, 22],[8, 24],[8, 35],[8, 62],[8, 76],[8, 81],[8, 82],[8, 84],[8, 96],[8, 97],[8, 100],[8, 106],[8, 107],[8, 113],[8, 114],[8, 115],[8, 119],[8, 129],[8, 135],[8, 151],[8, 154],[8, 161],[8, 164],[8, 176],[8, 179],[9, 10],[9, 11],[9, 12],[9, 13],[9, 14],[9, 15],[9, 19],[9, 22],[9, 24],[9, 35],[9, 62],[9, 76],[9, 81],[9, 82],[9, 84],[9, 96],[9, 97],[9, 100],[9, 106],[9, 107],[9, 113],[9, 114],[9, 115],[9, 119],[9, 129],[9, 135],[9, 151],[9, 154],[9, 161],[9, 164],[9, 176],[9, 179],[10, 11],[10, 12],[10, 13],[10, 19],[10, 22],[10, 24],[10, 35],[10, 62],[10, 76],[10, 81],[10, 82],[10, 84],[10, 96],[10, 97],[10, 100],[10, 106],[10, 107],[10, 113],[10, 114],[10, 115],[10, 119],[10, 129],[10, 135],[10, 151],[10, 154],[10, 161],[10, 164],[10, 176],[10, 179],[11, 12],[11, 13],[11, 14],[11, 15],[11, 19],[11, 22],[11, 24],[11, 35],[11, 62],[11, 76],[11, 81],[11, 82],[11, 84],[11, 96],[11, 97],[11, 100],[11, 106],[11, 107],[11, 113],[11, 114],[11, 115],[11, 119],[11, 129],[11, 135],[11, 151],[11, 154],[11, 161],[11, 164],[11, 176],[11, 179],[12, 13],[12, 14],[12, 19],[12, 22],[12, 24],[12, 35],[12, 62],[12, 76],[12, 81],[12, 82],[12, 84],[12, 96],[12, 97],[12, 100],[12, 106],[12, 107],[12, 113],[12, 114],[12, 115],[12, 119],[12, 129],[12, 135],[12, 151],[12, 154],[12, 161],[12, 164],[12, 176],[12, 179],[13, 14],[13, 15],[13, 16],[13, 17],[13, 18],[13, 19],[13, 20],[13, 21],[13, 22],[13, 23],[13, 24],[13, 25],[13, 26],[13, 27],[13, 28],[13, 29],[13, 30],[13, 31],[13, 32],[13, 33],[13, 34],[13, 35],[13, 36],[13, 37],[13, 46],[13, 57],[13, 62],[13, 68],[13, 76],[13, 79],[13, 81],[13, 82],[13, 84],[13, 90],[13, 93],[13, 95],[13, 96],[13, 97],[13, 98],[13, 99],[13, 100],[13, 101],[13, 102],[13, 103],[13, 104],[13, 106],[13, 107],[13, 108],[13, 109],[13, 110],[13, 111],[13, 112],[13, 113],[13, 114],[13, 115],[13, 117],[13, 118],[13, 119],[13, 120],[13, 121],[13, 122],[13, 123],[13, 124],[13, 125],[13, 126],[13, 128],[13, 129],[13, 130],[13, 131],[13, 132],[13, 133],[13, 134],[13, 135],[13, 136],[13, 137],[13, 138],[13, 139],[13, 140],[13, 141],[13, 142],[13, 143],[13, 144],[13, 145],[13, 146],[13, 147],[13, 148],[13, 149],[13, 150],[13, 151],[13, 152],[13, 153],[13, 154],[13, 155],[13, 156],[13, 157],[13, 158],[13, 159],[13, 160],[13, 161],[13, 162],[13, 163],[13, 164],[13, 165],[13, 166],[13, 167],[13, 168],[13, 169],[13, 170],[13, 171],[13, 172],[13, 173],[13, 174],[13, 175],[13, 176],[13, 177],[13, 178],[13, 179],[13, 180],[13, 181],[14, 19],[14, 22],[14, 24],[14, 35],[14, 62],[14, 76],[14, 81],[14, 82],[14, 84],[14, 96],[14, 97],[14, 100],[14, 106],[14, 107],[14, 113],[14, 114],[14, 115],[14, 119],[14, 129],[14, 135],[14, 151],[14, 154],[14, 161],[14, 164],[14, 176],[14, 179],[15, 16],[15, 17],[15, 19],[15, 22],[15, 24],[15, 35],[15, 62],[15, 76],[15, 81],[15, 82],[15, 84],[15, 96],[15, 97],[15, 100],[15, 106],[15, 107],[15, 113],[15, 114],[15, 115],[15, 119],[15, 129],[15, 135],[15, 151],[15, 154],[15, 161],[15, 164],[15, 176],[15, 179],[16, 19],[16, 22],[16, 24],[16, 35],[16, 62],[16, 76],[16, 81],[16, 82],[16, 84],[16, 96],[16, 100],[16, 106],[16, 107],[16, 113],[16, 114],[16, 115],[16, 119],[16, 135],[16, 151],[16, 161],[16, 164],[16, 176],[16, 179],[17, 18],[17, 19],[17, 22],[17, 24],[17, 35],[17, 62],[17, 76],[17, 81],[17, 82],[17, 84],[17, 96],[17, 100],[17, 106],[17, 107],[17, 113],[17, 114],[17, 115],[17, 119],[17, 135],[17, 151],[17, 161],[17, 164],[17, 176],[17, 179],[18, 22],[18, 24],[18, 35],[18, 62],[18, 76],[18, 81],[18, 82],[18, 84],[18, 96],[18, 100],[18, 106],[18, 107],[18, 113],[18, 114],[18, 115],[18, 119],[18, 135],[18, 151],[18, 161],[18, 164],[18, 176],[18, 179],[19, 22],[19, 24],[19, 35],[19, 46],[19, 57],[19, 62],[19, 68],[19, 76],[19, 79],[19, 81],[19, 82],[19, 84],[19, 90],[19, 93],[19, 94],[19, 95],[19, 96],[19, 97],[19, 98],[19, 99],[19, 100],[19, 101],[19, 102],[19, 103],[19, 104],[19, 105],[19, 106],[19, 107],[19, 108],[19, 109],[19, 110],[19, 111],[19, 112],[19, 113],[19, 114],[19, 115],[19, 116],[19, 117],[19, 118],[19, 119],[19, 120],[19, 121],[19, 122],[19, 123],[19, 124],[19, 125],[19, 126],[19, 127],[19, 128],[19, 129],[19, 130],[19, 131],[19, 132],[19, 133],[19, 134],[19, 135],[19, 136],[19, 137],[19, 138],[19, 139],[19, 140],[19, 141],[19, 142],[19, 143],[19, 144],[19, 145],[19, 146],[19, 147],[19, 148],[19, 149],[19, 150],[19, 151],[19, 152],[19, 153],[19, 154],[19, 155],[19, 156],[19, 157],[19, 158],[19, 159],[19, 160],[19, 161],[19, 162],[19, 163],[19, 164],[19, 165],[19, 166],[19, 167],[19, 168],[19, 169],[19, 170],[19, 171],[19, 172],[19, 173],[19, 174],[19, 175],[19, 176],[19, 177],[19, 178],[19, 179],[19, 180],[19, 181],[20, 22],[20, 24],[20, 35],[20, 62],[20, 76],[20, 81],[20, 82],[20, 84],[20, 96],[20, 100],[20, 106],[20, 107],[20, 113],[20, 114],[20, 115],[20, 119],[20, 135],[20, 151],[20, 161],[20, 164],[20, 176],[20, 179],[21, 22],[21, 24],[21, 35],[21, 62],[21, 76],[21, 81],[21, 82],[21, 84],[21, 96],[21, 100],[21, 106],[21, 107],[21, 113],[21, 114],[21, 115],[21, 119],[21, 135],[21, 151],[21, 161],[21, 164],[21, 176],[21, 179],[22, 23],[22, 24],[22, 25],[22, 35],[22, 46],[22, 57],[22, 62],[22, 68],[22, 76],[22, 79],[22, 81],[22, 82],[22, 84],[22, 90],[22, 93],[22, 94],[22, 95],[22, 96],[22, 97],[22, 98],[22, 99],[22, 100],[22, 101],[22, 102],[22, 103],[22, 104],[22, 105],[22, 106],[22, 107],[22, 108],[22, 109],[22, 110],[22, 111],[22, 112],[22, 113],[22, 114],[22, 115],[22, 116],[22, 117],[22, 118],[22, 119],[22, 120],[22, 121],[22, 122],[22, 123],[22, 124],[22, 125],[22, 126],[22, 127],[22, 128],[22, 129],[22, 130],[22, 131],[22, 132],[22, 133],[22, 134],[22, 135],[22, 136],[22, 137],[22, 138],[22, 139],[22, 140],[22, 141],[22, 142],[22, 143],[22, 144],[22, 145],[22, 146],[22, 147],[22, 148],[22, 149],[22, 150],[22, 151],[22, 152],[22, 153],[22, 154],[22, 155],[22, 156],[22, 157],[22, 158],[22, 159],[22, 160],[22, 161],[22, 162],[22, 163],[22, 164],[22, 165],[22, 166],[22, 167],[22, 168],[22, 169],[22, 170],[22, 171],[22, 172],[22, 173],[22, 174],[22, 175],[22, 176],[22, 177],[22, 178],[22, 179],[22, 180],[22, 181],[23, 24],[23, 35],[23, 62],[23, 76],[23, 81],[23, 82],[23, 84],[23, 96],[23, 100],[23, 106],[23, 113],[23, 114],[23, 115],[23, 119],[23, 135],[23, 151],[23, 164],[23, 176],[23, 179],[24, 25],[24, 26],[24, 27],[24, 28],[24, 29],[24, 30],[24, 31],[24, 32],[24, 33],[24, 34],[24, 35],[24, 36],[24, 37],[24, 38],[24, 39],[24, 40],[24, 41],[24, 42],[24, 43],[24, 44],[24, 45],[24, 46],[24, 47],[24, 48],[24, 49],[24, 50],[24, 51],[24, 52],[24, 53],[24, 54],[24, 55],[24, 56],[24, 57],[24, 58],[24, 59],[24, 60],[24, 61],[24, 62],[24, 63],[24, 64],[24, 68],[24, 76],[24, 79],[24, 81],[24, 82],[24, 84],[24, 90],[24, 93],[24, 95],[24, 96],[24, 97],[24, 98],[24, 99],[24, 100],[24, 101],[24, 102],[24, 103],[24, 104],[24, 106],[24, 107],[24, 108],[24, 109],[24, 110],[24, 111],[24, 112],[24, 113],[24, 114],[24, 115],[24, 117],[24, 118],[24, 119],[24, 120],[24, 121],[24, 122],[24, 123],[24, 124],[24, 125],[24, 126],[24, 128],[24, 129],[24, 130],[24, 131],[24, 132],[24, 133],[24, 134],[24, 135],[24, 136],[24, 137],[24, 138],[24, 139],[24, 140],[24, 141],[24, 142],[24, 143],[24, 144],[24, 145],[24, 146],[24, 147],[24, 148],[24, 149],[24, 150],[24, 151],[24, 152],[24, 153],[24, 154],[24, 155],[24, 156],[24, 157],[24, 158],[24, 159],[24, 160],[24, 161],[24, 162],[24, 163],[24, 164],[24, 165],[24, 166],[24, 167],[24, 168],[24, 169],[24, 170],[24, 172],[24, 173],[24, 174],[24, 175],[24, 176],[24, 177],[24, 178],[24, 179],[24, 180],[24, 181],[25, 35],[25, 62],[25, 76],[25, 81],[25, 82],[25, 84],[25, 96],[25, 100],[25, 106],[25, 113],[25, 114],[25, 115],[25, 119],[25, 135],[25, 151],[25, 164],[25, 176],[25, 179],[26, 27],[26, 28],[26, 29],[26, 30],[26, 31],[26, 32],[26, 33],[26, 34],[26, 35],[26, 36],[26, 37],[26, 38],[26, 39],[26, 40],[26, 41],[26, 42],[26, 43],[26, 44],[26, 45],[26, 47],[26, 48],[26, 49],[26, 50],[26, 51],[26, 52],[26, 53],[26, 54],[26, 55],[26, 56],[26, 58],[26, 59],[26, 60],[26, 61],[26, 62],[26, 63],[26, 64],[26, 65],[26, 66],[26, 67],[26, 69],[26, 70],[26, 71],[26, 72],[26, 73],[26, 74],[26, 75],[26, 76],[26, 77],[26, 80],[26, 81],[26, 82],[26, 84],[26, 96],[26, 100],[26, 106],[26, 113],[26, 114],[26, 115],[26, 119],[26, 135],[26, 151],[26, 164],[26, 176],[26, 179],[27, 28],[27, 29],[27, 30],[27, 31],[27, 32],[27, 35],[27, 62],[27, 76],[27, 81],[27, 82],[27, 84],[27, 96],[27, 100],[27, 106],[27, 113],[27, 114],[27, 119],[27, 135],[27, 151],[27, 164],[27, 176],[27, 179],[28, 29],[28, 30],[28, 31],[28, 35],[28, 62],[28, 76],[28, 81],[28, 82],[28, 84],[28, 96],[28, 100],[28, 106],[28, 113],[28, 114],[28, 119],[28, 135],[28, 151],[28, 164],[28, 176],[29, 30],[29, 31],[29, 32],[29, 33],[29, 34],[29, 35],[29, 36],[29, 37],[29, 38],[29, 39],[29, 40],[29, 41],[29, 42],[29, 43],[29, 44],[29, 45],[29, 47],[29, 48],[29, 49],[29, 50],[29, 51],[29, 52],[29, 53],[29, 54],[29, 55],[29, 62],[29, 76],[29, 81],[29, 82],[29, 84],[29, 96],[29, 100],[29, 113],[29, 114],[29, 119],[29, 135],[29, 151],[29, 164],[29, 176],[30, 31],[30, 32],[30, 33],[30, 34],[30, 35],[30, 36],[30, 62],[30, 76],[30, 81],[30, 82],[30, 84],[30, 96],[30, 100],[30, 113],[30, 114],[30, 119],[30, 135],[30, 151],[30, 164],[31, 32],[31, 33],[31, 35],[31, 62],[31, 76],[31, 81],[31, 82],[31, 84],[31, 96],[31, 100],[31, 113],[31, 114],[31, 119],[31, 135],[31, 151],[31, 164],[32, 35],[32, 62],[32, 76],[32, 81],[32, 82],[32, 84],[32, 96],[32, 100],[32, 113],[32, 114],[32, 119],[32, 135],[32, 151],[32, 164],[33, 34],[33, 35],[33, 36],[33, 37],[33, 38],[33, 39],[33, 62],[33, 76],[33, 81],[33, 82],[33, 84],[33, 96],[33, 100],[33, 113],[33, 114],[33, 119],[33, 135],[33, 151],[33, 164],[34, 35],[34, 62],[34, 76],[34, 81],[34, 82],[34, 84],[34, 96],[34, 100],[34, 113],[34, 114],[34, 119],[34, 135],[34, 151],[34, 164],[35, 46],[35, 57],[35, 62],[35, 68],[35, 76],[35, 79],[35, 81],[35, 82],[35, 84],[35, 90],[35, 93],[35, 95],[35, 96],[35, 97],[35, 98],[35, 99],[35, 100],[35, 101],[35, 102],[35, 103],[35, 104],[35, 106],[35, 107],[35, 108],[35, 109],[35, 110],[35, 111],[35, 112],[35, 113],[35, 114],[35, 115],[35, 117],[35, 118],[35, 119],[35, 120],[35, 121],[35, 122],[35, 123],[35, 124],[35, 125],[35, 126],[35, 128],[35, 129],[35, 130],[35, 131],[35, 132],[35, 133],[35, 134],[35, 135],[35, 136],[35, 137],[35, 138],[35, 139],[35, 140],[35, 141],[35, 142],[35, 143],[35, 144],[35, 145],[35, 146],[35, 147],[35, 148],[35, 149],[35, 150],[35, 151],[35, 152],[35, 153],[35, 154],[35, 155],[35, 156],[35, 157],[35, 158],[35, 159],[35, 160],[35, 161],[35, 162],[35, 163],[35, 164],[35, 165],[35, 166],[35, 167],[35, 168],[35, 169],[35, 170],[35, 172],[35, 173],[35, 174],[35, 175],[35, 176],[35, 177],[35, 178],[35, 179],[35, 180],[35, 181],[36, 37],[36, 38],[36, 39],[36, 40],[36, 62],[36, 76],[36, 81],[36, 82],[36, 84],[36, 96],[36, 100],[36, 113],[36, 114],[36, 119],[36, 135],[36, 151],[36, 164],[37, 38],[37, 39],[37, 40],[37, 41],[37, 42],[37, 62],[37, 76],[37, 81],[37, 82],[37, 84],[37, 96],[37, 100],[37, 113],[37, 114],[37, 119],[37, 135],[37, 151],[37, 164],[38, 62],[38, 76],[38, 81],[38, 82],[38, 84],[38, 96],[38, 100],[38, 113],[38, 114],[38, 119],[38, 135],[38, 151],[38, 164],[39, 40],[39, 41],[39, 42],[39, 43],[39, 44],[39, 62],[39, 76],[39, 81],[39, 82],[39, 84],[39, 96],[39, 100],[39, 113],[39, 114],[39, 119],[39, 135],[39, 151],[39, 164],[40, 41],[40, 42],[40, 43],[40, 62],[40, 76],[40, 81],[40, 82],[40, 84],[40, 96],[40, 100],[40, 113],[40, 114],[40, 119],[40, 151],[40, 164],[41, 42],[41, 43],[41, 44],[41, 45],[41, 62],[41, 76],[41, 81],[41, 82],[41, 84],[41, 96],[41, 100],[41, 113],[41, 114],[41, 119],[41, 164],[42, 43],[42, 44],[42, 45],[42, 47],[42, 48],[42, 62],[42, 76],[42, 81],[42, 82],[42, 84],[42, 96],[42, 100],[42, 113],[42, 114],[42, 119],[42, 164],[43, 62],[43, 76],[43, 81],[43, 82],[43, 84],[43, 96],[43, 100],[43, 113],[43, 114],[43, 119],[43, 164],[44, 45],[44, 47],[44, 49],[44, 51],[44, 52],[44, 53],[44, 54],[44, 55],[44, 56],[44, 58],[44, 59],[44, 60],[44, 61],[44, 62],[44, 63],[44, 64],[44, 65],[44, 66],[44, 67],[44, 69],[44, 70],[44, 71],[44, 72],[44, 73],[44, 74],[44, 75],[44, 76],[44, 77],[44, 78],[44, 80],[44, 81],[44, 82],[44, 83],[44, 84],[44, 85],[44, 86],[44, 87],[44, 88],[44, 89],[44, 91],[44, 96],[44, 100],[44, 113],[44, 114],[44, 119],[44, 164],[45, 47],[45, 48],[45, 49],[45, 50],[45, 51],[45, 52],[45, 53],[45, 54],[45, 55],[45, 62],[45, 76],[45, 81],[45, 82],[45, 84],[45, 96],[45, 100],[45, 113],[45, 114],[45, 119],[46, 57],[46, 62],[46, 68],[46, 76],[46, 79],[46, 81],[46, 82],[46, 84],[46, 90],[46, 93],[46, 95],[46, 96],[46, 97],[46, 119],[46, 120],[46, 123],[46, 124],[46, 125],[46, 129],[46, 130],[46, 131],[46, 138],[46, 143],[46, 144],[46, 148],[46, 149],[46, 154],[46, 155],[46, 157],[46, 158],[46, 160],[46, 164],[46, 167],[46, 169],[46, 179],[47, 62],[47, 76],[47, 81],[47, 82],[47, 84],[47, 96],[47, 100],[47, 114],[47, 119],[48, 49],[48, 50],[48, 51],[48, 52],[48, 53],[48, 54],[48, 55],[48, 56],[48, 58],[48, 59],[48, 60],[48, 61],[48, 62],[48, 63],[48, 64],[48, 65],[48, 66],[48, 67],[48, 69],[48, 76],[48, 81],[48, 82],[48, 84],[48, 96],[48, 100],[48, 114],[48, 119],[49, 50],[49, 62],[49, 76],[49, 81],[49, 82],[49, 84],[49, 96],[49, 100],[49, 114],[49, 119],[50, 62],[50, 76],[50, 81],[50, 82],[50, 84],[50, 96],[50, 100],[50, 114],[50, 119],[51, 62],[51, 76],[51, 81],[51, 82],[51, 84],[51, 96],[51, 100],[51, 114],[51, 119],[52, 53],[52, 54],[52, 55],[52, 56],[52, 58],[52, 59],[52, 60],[52, 62],[52, 76],[52, 81],[52, 82],[52, 84],[52, 96],[52, 100],[52, 114],[52, 119],[53, 62],[53, 76],[53, 81],[53, 82],[53, 84],[53, 96],[53, 100],[53, 114],[53, 119],[54, 55],[54, 56],[54, 58],[54, 62],[54, 76],[54, 81],[54, 82],[54, 84],[54, 96],[54, 100],[54, 114],[54, 119],[55, 56],[55, 62],[55, 76],[55, 81],[55, 82],[55, 84],[55, 96],[55, 100],[55, 114],[55, 119],[56, 58],[56, 59],[56, 62],[56, 76],[56, 81],[56, 82],[56, 84],[56, 96],[56, 100],[56, 114],[56, 119],[57, 62],[57, 68],[57, 76],[57, 79],[57, 81],[57, 82],[57, 84],[57, 90],[57, 96],[57, 97],[57, 119],[57, 120],[57, 123],[57, 124],[57, 125],[57, 129],[57, 130],[57, 131],[57, 138],[57, 143],[57, 144],[57, 148],[57, 149],[57, 154],[57, 155],[57, 157],[57, 158],[57, 160],[57, 164],[57, 167],[57, 169],[57, 179],[58, 62],[58, 76],[58, 81],[58, 82],[58, 84],[58, 96],[58, 100],[58, 114],[58, 119],[59, 60],[59, 61],[59, 62],[59, 76],[59, 81],[59, 82],[59, 84],[59, 96],[59, 100],[59, 114],[59, 119],[60, 62],[60, 76],[60, 81],[60, 82],[60, 84],[60, 96],[60, 100],[60, 114],[60, 119],[61, 62],[61, 63],[61, 64],[61, 65],[61, 66],[61, 76],[61, 81],[61, 82],[61, 84],[61, 96],[61, 100],[61, 114],[61, 119],[62, 63],[62, 64],[62, 65],[62, 66],[62, 67],[62, 68],[62, 76],[62, 79],[62, 81],[62, 82],[62, 84],[62, 90],[62, 93],[62, 94],[62, 95],[62, 96],[62, 97],[62, 98],[62, 99],[62, 100],[62, 101],[62, 102],[62, 103],[62, 104],[62, 105],[62, 106],[62, 107],[62, 108],[62, 109],[62, 110],[62, 111],[62, 112],[62, 113],[62, 114],[62, 115],[62, 116],[62, 117],[62, 118],[62, 119],[62, 120],[62, 121],[62, 122],[62, 123],[62, 124],[62, 125],[62, 126],[62, 127],[62, 128],[62, 129],[62, 130],[62, 131],[62, 132],[62, 133],[62, 134],[62, 135],[62, 136],[62, 137],[62, 138],[62, 139],[62, 140],[62, 141],[62, 142],[62, 143],[62, 144],[62, 145],[62, 146],[62, 147],[62, 148],[62, 149],[62, 150],[62, 151],[62, 152],[62, 153],[62, 154],[62, 155],[62, 156],[62, 157],[62, 158],[62, 159],[62, 160],[62, 161],[62, 162],[62, 163],[62, 164],[62, 165],[62, 166],[62, 167],[62, 168],[62, 169],[62, 170],[62, 171],[62, 172],[62, 173],[62, 174],[62, 175],[62, 176],[62, 177],[62, 178],[62, 179],[62, 180],[62, 181],[63, 64],[63, 65],[63, 66],[63, 67],[63, 76],[63, 81],[63, 82],[63, 84],[63, 96],[63, 114],[63, 119],[64, 76],[64, 81],[64, 82],[64, 84],[64, 96],[64, 114],[64, 119],[65, 76],[65, 81],[65, 82],[65, 84],[65, 96],[65, 114],[66, 67],[66, 69],[66, 70],[66, 76],[66, 81],[66, 82],[66, 84],[66, 96],[67, 76],[67, 81],[67, 82],[67, 84],[67, 96],[68, 76],[68, 79],[68, 81],[68, 82],[68, 84],[68, 93],[68, 94],[68, 95],[68, 96],[68, 97],[68, 98],[68, 99],[68, 100],[68, 101],[68, 102],[68, 103],[68, 104],[68, 105],[68, 106],[68, 107],[68, 108],[68, 109],[68, 110],[68, 111],[68, 112],[68, 113],[68, 114],[68, 115],[68, 116],[68, 117],[68, 118],[68, 119],[68, 120],[68, 121],[68, 122],[68, 123],[68, 124],[68, 125],[68, 126],[68, 127],[68, 128],[68, 129],[68, 130],[68, 131],[68, 132],[68, 133],[68, 134],[68, 135],[68, 136],[68, 137],[68, 138],[68, 139],[68, 140],[68, 141],[68, 142],[68, 143],[68, 144],[68, 145],[68, 146],[68, 147],[68, 148],[68, 149],[68, 150],[68, 151],[68, 152],[68, 153],[68, 154],[68, 155],[68, 156],[68, 157],[68, 158],[68, 159],[68, 160],[68, 161],[68, 162],[68, 163],[68, 164],[68, 165],[68, 167],[68, 169],[68, 171],[68, 179],[69, 76],[69, 81],[69, 82],[69, 84],[69, 96],[70, 71],[70, 76],[70, 81],[70, 82],[70, 84],[70, 96],[71, 72],[71, 73],[71, 74],[71, 75],[71, 76],[71, 81],[71, 82],[71, 84],[71, 96],[72, 76],[72, 81],[72, 82],[72, 84],[72, 96],[73, 74],[73, 76],[73, 81],[73, 82],[73, 84],[73, 96],[74, 81],[74, 82],[74, 84],[74, 96],[75, 81],[75, 82],[75, 84],[75, 96],[76, 77],[76, 78],[76, 79],[76, 81],[76, 82],[76, 84],[76, 90],[76, 93],[76, 94],[76, 95],[76, 96],[76, 97],[76, 98],[76, 99],[76, 100],[76, 101],[76, 102],[76, 103],[76, 104],[76, 105],[76, 106],[76, 107],[76, 108],[76, 109],[76, 110],[76, 111],[76, 112],[76, 113],[76, 114],[76, 115],[76, 116],[76, 117],[76, 118],[76, 119],[76, 120],[76, 121],[76, 122],[76, 123],[76, 124],[76, 125],[76, 126],[76, 127],[76, 128],[76, 129],[76, 130],[76, 131],[76, 132],[76, 133],[76, 134],[76, 135],[76, 136],[76, 137],[76, 138],[76, 139],[76, 140],[76, 141],[76, 142],[76, 143],[76, 144],[76, 145],[76, 146],[76, 147],[76, 148],[76, 149],[76, 150],[76, 151],[76, 152],[76, 153],[76, 154],[76, 155],[76, 156],[76, 157],[76, 158],[76, 159],[76, 160],[76, 161],[76, 162],[76, 163],[76, 164],[76, 165],[76, 166],[76, 167],[76, 168],[76, 169],[76, 170],[76, 171],[76, 172],[76, 173],[76, 174],[76, 175],[76, 176],[76, 177],[76, 178],[76, 179],[76, 180],[76, 181],[77, 78],[77, 80],[77, 81],[77, 82],[77, 84],[77, 96],[78, 81],[78, 82],[78, 84],[78, 96],[79, 81],[79, 82],[79, 84],[79, 90],[79, 93],[79, 94],[79, 95],[79, 96],[79, 97],[79, 105],[79, 116],[79, 119],[79, 120],[79, 123],[79, 124],[79, 125],[79, 127],[79, 129],[79, 130],[79, 131],[79, 138],[79, 143],[79, 144],[79, 148],[79, 149],[79, 154],[79, 155],[79, 157],[79, 158],[79, 160],[79, 164],[79, 167],[79, 169],[79, 171],[79, 179],[80, 96],[81, 82],[81, 83],[81, 84],[81, 90],[81, 93],[81, 94],[81, 95],[81, 96],[81, 97],[81, 98],[81, 99],[81, 100],[81, 101],[81, 102],[81, 103],[81, 104],[81, 105],[81, 106],[81, 107],[81, 108],[81, 109],[81, 110],[81, 111],[81, 112],[81, 113],[81, 114],[81, 115],[81, 116],[81, 117],[81, 118],[81, 119],[81, 120],[81, 121],[81, 122],[81, 123],[81, 124],[81, 125],[81, 126],[81, 127],[81, 128],[81, 129],[81, 130],[81, 131],[81, 132],[81, 133],[81, 134],[81, 135],[81, 136],[81, 137],[81, 138],[81, 139],[81, 140],[81, 141],[81, 142],[81, 143],[81, 144],[81, 145],[81, 146],[81, 147],[81, 148],[81, 149],[81, 150],[81, 151],[81, 152],[81, 153],[81, 154],[81, 155],[81, 156],[81, 157],[81, 158],[81, 159],[81, 160],[81, 161],[81, 162],[81, 163],[81, 164],[81, 165],[81, 166],[81, 167],[81, 168],[81, 169],[81, 170],[81, 171],[81, 172],[81, 173],[81, 174],[81, 175],[81, 176],[81, 177],[81, 178],[81, 179],[81, 180],[81, 181],[82, 83],[82, 84],[82, 85],[82, 86],[82, 87],[82, 90],[82, 93],[82, 94],[82, 95],[82, 96],[82, 97],[82, 98],[82, 99],[82, 100],[82, 101],[82, 102],[82, 103],[82, 104],[82, 105],[82, 106],[82, 107],[82, 108],[82, 109],[82, 110],[82, 111],[82, 112],[82, 113],[82, 114],[82, 115],[82, 116],[82, 117],[82, 118],[82, 119],[82, 120],[82, 121],[82, 122],[82, 123],[82, 124],[82, 125],[82, 126],[82, 127],[82, 128],[82, 129],[82, 130],[82, 131],[82, 132],[82, 133],[82, 134],[82, 135],[82, 136],[82, 137],[82, 138],[82, 139],[82, 140],[82, 141],[82, 142],[82, 143],[82, 144],[82, 145],[82, 146],[82, 147],[82, 148],[82, 149],[82, 150],[82, 151],[82, 152],[82, 153],[82, 154],[82, 155],[82, 156],[82, 157],[82, 158],[82, 159],[82, 160],[82, 161],[82, 162],[82, 163],[82, 164],[82, 165],[82, 166],[82, 167],[82, 168],[82, 169],[82, 170],[82, 171],[82, 172],[82, 173],[82, 174],[82, 175],[82, 176],[82, 177],[82, 178],[82, 179],[82, 180],[82, 181],[84, 85],[84, 90],[84, 93],[84, 94],[84, 95],[84, 96],[84, 97],[84, 98],[84, 99],[84, 100],[84, 101],[84, 102],[84, 103],[84, 104],[84, 105],[84, 106],[84, 107],[84, 108],[84, 109],[84, 110],[84, 111],[84, 112],[84, 113],[84, 114],[84, 115],[84, 116],[84, 117],[84, 118],[84, 119],[84, 120],[84, 121],[84, 122],[84, 123],[84, 124],[84, 125],[84, 126],[84, 127],[84, 128],[84, 129],[84, 130],[84, 131],[84, 132],[84, 133],[84, 134],[84, 135],[84, 136],[84, 137],[84, 138],[84, 139],[84, 140],[84, 141],[84, 142],[84, 143],[84, 144],[84, 145],[84, 146],[84, 147],[84, 148],[84, 149],[84, 150],[84, 151],[84, 152],[84, 153],[84, 154],[84, 155],[84, 156],[84, 157],[84, 158],[84, 159],[84, 160],[84, 161],[84, 162],[84, 163],[84, 164],[84, 165],[84, 166],[84, 167],[84, 168],[84, 169],[84, 170],[84, 171],[84, 172],[84, 173],[84, 174],[84, 175],[84, 176],[84, 177],[84, 178],[84, 179],[84, 180],[84, 181],[85, 86],[85, 87],[85, 88],[85, 89],[86, 87],[86, 88],[87, 88],[87, 89],[90, 96],[90, 97],[90, 119],[90, 120],[90, 123],[90, 124],[90, 125],[90, 129],[90, 130],[90, 131],[90, 138],[90, 143],[90, 144],[90, 148],[90, 149],[90, 154],[90, 155],[90, 157],[90, 158],[90, 160],[90, 164],[90, 167],[90, 169],[90, 179],[93, 94],[93, 95],[93, 96],[93, 97],[93, 105],[93, 116],[93, 119],[93, 120],[93, 123],[93, 124],[93, 125],[93, 127],[93, 129],[93, 130],[93, 131],[93, 138],[93, 143],[93, 144],[93, 148],[93, 149],[93, 154],[93, 155],[93, 157],[93, 158],[93, 160],[93, 164],[93, 167],[93, 169],[93, 171],[93, 179],[94, 95],[94, 96],[94, 97],[94, 105],[94, 116],[94, 119],[94, 120],[94, 123],[94, 124],[94, 125],[94, 127],[94, 129],[94, 130],[94, 131],[94, 138],[94, 143],[94, 144],[94, 148],[94, 154],[94, 155],[94, 157],[94, 158],[94, 164],[94, 167],[94, 169],[94, 179],[95, 96],[95, 97],[95, 98],[95, 99],[95, 100],[95, 101],[95, 102],[95, 103],[95, 104],[95, 105],[95, 106],[95, 107],[95, 108],[95, 109],[95, 116],[95, 119],[95, 120],[95, 123],[95, 124],[95, 125],[95, 127],[95, 129],[95, 130],[95, 131],[95, 138],[95, 143],[95, 144],[95, 148],[95, 149],[95, 154],[95, 155],[95, 157],[95, 158],[95, 160],[95, 164],[95, 167],[95, 169],[95, 171],[95, 179],[96, 97],[96, 98],[96, 99],[96, 100],[96, 101],[96, 102],[96, 103],[96, 104],[96, 105],[96, 106],[96, 107],[96, 108],[96, 109],[96, 110],[96, 111],[96, 112],[96, 113],[96, 114],[96, 115],[96, 116],[96, 117],[96, 118],[96, 119],[96, 120],[96, 121],[96, 122],[96, 123],[96, 124],[96, 125],[96, 126],[96, 127],[96, 128],[96, 129],[96, 130],[96, 131],[96, 132],[96, 133],[96, 134],[96, 135],[96, 136],[96, 137],[96, 138],[96, 139],[96, 140],[96, 141],[96, 142],[96, 143],[96, 144],[96, 145],[96, 146],[96, 147],[96, 148],[96, 149],[96, 150],[96, 151],[96, 152],[96, 153],[96, 154],[96, 155],[96, 156],[96, 157],[96, 158],[96, 159],[96, 160],[96, 161],[96, 162],[96, 163],[96, 164],[96, 165],[96, 166],[96, 167],[96, 168],[96, 169],[96, 170],[96, 171],[96, 172],[96, 173],[96, 174],[96, 175],[96, 176],[96, 177],[96, 178],[96, 179],[96, 180],[96, 181],[97, 98],[97, 99],[97, 100],[97, 101],[97, 102],[97, 103],[97, 104],[97, 105],[97, 106],[97, 107],[97, 108],[97, 109],[97, 110],[97, 111],[97, 112],[97, 113],[97, 114],[97, 115],[97, 116],[97, 117],[97, 118],[97, 119],[97, 120],[97, 121],[97, 122],[97, 123],[97, 124],[97, 125],[97, 126],[97, 127],[97, 128],[97, 129],[97, 130],[97, 131],[97, 132],[97, 133],[97, 134],[97, 135],[97, 136],[97, 137],[97, 138],[97, 139],[97, 140],[97, 141],[97, 142],[97, 143],[97, 144],[97, 145],[97, 146],[97, 147],[97, 148],[97, 149],[97, 150],[97, 151],[97, 152],[97, 153],[97, 154],[97, 155],[97, 156],[97, 157],[97, 158],[97, 159],[97, 160],[97, 161],[97, 162],[97, 163],[97, 164],[97, 165],[97, 166],[97, 167],[97, 168],[97, 169],[97, 170],[97, 171],[97, 172],[97, 173],[97, 174],[97, 175],[97, 176],[97, 177],[97, 178],[97, 179],[97, 180],[97, 181],[98, 119],[98, 120],[98, 123],[98, 124],[98, 125],[98, 129],[98, 130],[98, 131],[98, 138],[98, 143],[98, 144],[98, 148],[98, 149],[98, 154],[98, 155],[98, 157],[98, 158],[98, 160],[98, 164],[98, 167],[98, 169],[98, 179],[99, 100],[99, 101],[99, 102],[99, 103],[99, 104],[99, 106],[99, 107],[99, 108],[99, 109],[99, 119],[99, 120],[99, 123],[99, 124],[99, 125],[99, 129],[99, 130],[99, 131],[99, 138],[99, 143],[99, 144],[99, 148],[99, 149],[99, 154],[99, 155],[99, 157],[99, 158],[99, 160],[99, 164],[99, 167],[99, 169],[99, 179],[100, 101],[100, 102],[100, 103],[100, 104],[100, 106],[100, 107],[100, 108],[100, 109],[100, 110],[100, 111],[100, 112],[100, 113],[100, 114],[100, 115],[100, 117],[100, 118],[100, 119],[100, 120],[100, 121],[100, 122],[100, 123],[100, 124],[100, 125],[100, 126],[100, 128],[100, 129],[100, 130],[100, 131],[100, 132],[100, 133],[100, 134],[100, 135],[100, 136],[100, 137],[100, 138],[100, 139],[100, 140],[100, 141],[100, 142],[100, 143],[100, 144],[100, 145],[100, 146],[100, 147],[100, 148],[100, 149],[100, 150],[100, 151],[100, 152],[100, 153],[100, 154],[100, 155],[100, 156],[100, 157],[100, 158],[100, 159],[100, 160],[100, 161],[100, 162],[100, 163],[100, 164],[100, 165],[100, 166],[100, 167],[100, 168],[100, 169],[100, 170],[100, 172],[100, 173],[100, 174],[100, 175],[100, 176],[100, 177],[100, 178],[100, 179],[100, 180],[100, 181],[101, 102],[101, 103],[101, 104],[101, 106],[101, 107],[101, 108],[101, 109],[101, 110],[101, 111],[101, 112],[101, 113],[101, 114],[101, 115],[101, 117],[101, 118],[101, 119],[101, 120],[101, 121],[101, 122],[101, 123],[101, 124],[101, 125],[101, 126],[101, 128],[101, 129],[101, 130],[101, 131],[101, 132],[101, 133],[101, 134],[101, 135],[101, 136],[101, 137],[101, 138],[101, 139],[101, 140],[101, 141],[101, 142],[101, 143],[101, 144],[101, 145],[101, 146],[101, 147],[101, 148],[101, 149],[101, 150],[101, 151],[101, 152],[101, 153],[101, 154],[101, 155],[101, 156],[101, 157],[101, 158],[101, 160],[101, 164],[101, 167],[101, 169],[101, 179],[102, 103],[102, 104],[102, 119],[102, 120],[102, 123],[102, 124],[102, 125],[102, 129],[102, 130],[102, 131],[102, 138],[102, 143],[102, 144],[102, 148],[102, 149],[102, 154],[102, 155],[102, 157],[102, 158],[102, 160],[102, 164],[102, 167],[102, 169],[102, 179],[103, 104],[103, 106],[103, 107],[103, 108],[103, 109],[103, 110],[103, 111],[103, 112],[103, 113],[103, 114],[103, 115],[103, 117],[103, 118],[103, 119],[103, 120],[103, 121],[103, 122],[103, 123],[103, 124],[103, 125],[103, 126],[103, 128],[103, 129],[103, 130],[103, 131],[103, 132],[103, 133],[103, 134],[103, 135],[103, 136],[103, 137],[103, 138],[103, 139],[103, 140],[103, 141],[103, 142],[103, 143],[103, 144],[103, 145],[103, 146],[103, 147],[103, 148],[103, 149],[103, 150],[103, 151],[103, 152],[103, 153],[103, 154],[103, 155],[103, 156],[103, 157],[103, 158],[103, 159],[103, 160],[103, 161],[103, 162],[103, 163],[103, 164],[103, 165],[103, 166],[103, 167],[103, 168],[103, 169],[103, 170],[103, 172],[103, 173],[103, 174],[103, 175],[103, 176],[103, 177],[103, 178],[103, 179],[103, 180],[103, 181],[104, 106],[104, 107],[104, 109],[104, 110],[104, 111],[104, 112],[104, 113],[104, 114],[104, 115],[104, 117],[104, 118],[104, 119],[104, 120],[104, 121],[104, 122],[104, 123],[104, 124],[104, 125],[104, 126],[104, 128],[104, 129],[104, 130],[104, 131],[104, 132],[104, 133],[104, 134],[104, 135],[104, 136],[104, 137],[104, 138],[104, 139],[104, 140],[104, 141],[104, 142],[104, 143],[104, 144],[104, 145],[104, 146],[104, 147],[104, 148],[104, 150],[104, 151],[104, 152],[104, 153],[104, 154],[104, 155],[104, 156],[104, 157],[104, 158],[104, 160],[104, 164],[104, 167],[104, 169],[104, 179],[105, 116],[105, 119],[105, 120],[105, 123],[105, 124],[105, 125],[105, 127],[105, 129],[105, 130],[105, 131],[105, 138],[105, 143],[105, 144],[105, 148],[105, 149],[105, 154],[105, 155],[105, 157],[105, 158],[105, 160],[105, 164],[105, 167],[105, 169],[105, 171],[105, 179],[106, 107],[106, 108],[106, 109],[106, 110],[106, 111],[106, 112],[106, 113],[106, 114],[106, 115],[106, 117],[106, 118],[106, 119],[106, 120],[106, 121],[106, 122],[106, 123],[106, 124],[106, 125],[106, 126],[106, 128],[106, 129],[106, 130],[106, 131],[106, 132],[106, 133],[106, 134],[106, 135],[106, 136],[106, 137],[106, 138],[106, 139],[106, 140],[106, 141],[106, 142],[106, 143],[106, 144],[106, 145],[106, 146],[106, 147],[106, 148],[106, 149],[106, 150],[106, 151],[106, 152],[106, 153],[106, 154],[106, 155],[106, 156],[106, 157],[106, 158],[106, 159],[106, 160],[106, 161],[106, 162],[106, 163],[106, 164],[106, 165],[106, 166],[106, 167],[106, 168],[106, 169],[106, 170],[106, 172],[106, 173],[106, 174],[106, 175],[106, 176],[106, 177],[106, 178],[106, 179],[106, 180],[106, 181],[107, 108],[107, 109],[107, 110],[107, 111],[107, 112],[107, 113],[107, 114],[107, 115],[107, 117],[107, 118],[107, 119],[107, 120],[107, 121],[107, 122],[107, 123],[107, 124],[107, 125],[107, 126],[107, 128],[107, 129],[107, 130],[107, 131],[107, 132],[107, 133],[107, 134],[107, 135],[107, 136],[107, 137],[107, 138],[107, 139],[107, 140],[107, 141],[107, 142],[107, 143],[107, 144],[107, 145],[107, 146],[107, 147],[107, 148],[107, 149],[107, 150],[107, 151],[107, 152],[107, 153],[107, 154],[107, 155],[107, 156],[107, 157],[107, 158],[107, 159],[107, 160],[107, 161],[107, 162],[107, 163],[107, 164],[107, 165],[107, 166],[107, 167],[107, 168],[107, 169],[107, 170],[107, 172],[107, 173],[107, 174],[107, 175],[107, 176],[107, 177],[107, 178],[107, 179],[107, 180],[107, 181],[108, 109],[108, 110],[108, 119],[108, 120],[108, 123],[108, 124],[108, 125],[108, 129],[108, 130],[108, 131],[108, 138],[108, 143],[108, 144],[108, 148],[108, 149],[108, 154],[108, 155],[108, 157],[108, 158],[108, 160],[108, 164],[108, 167],[108, 169],[108, 179],[109, 110],[109, 111],[109, 112],[109, 113],[109, 114],[109, 115],[109, 117],[109, 118],[109, 119],[109, 120],[109, 121],[109, 123],[109, 124],[109, 125],[109, 129],[109, 130],[109, 131],[109, 138],[109, 143],[109, 144],[109, 148],[109, 149],[109, 154],[109, 155],[109, 157],[109, 158],[109, 160],[109, 164],[109, 167],[109, 169],[109, 179],[110, 111],[110, 112],[110, 113],[110, 114],[110, 115],[110, 117],[110, 118],[110, 119],[110, 120],[110, 123],[110, 124],[110, 125],[110, 129],[110, 130],[110, 131],[110, 138],[110, 143],[110, 144],[110, 148],[110, 154],[110, 155],[110, 157],[110, 158],[110, 160],[110, 164],[110, 167],[110, 169],[110, 179],[111, 112],[111, 113],[111, 114],[111, 115],[111, 117],[111, 118],[111, 119],[111, 120],[111, 121],[111, 122],[111, 123],[111, 124],[111, 125],[111, 126],[111, 128],[111, 129],[111, 130],[111, 131],[111, 132],[111, 133],[111, 134],[111, 135],[111, 136],[111, 137],[111, 138],[111, 139],[111, 140],[111, 141],[111, 142],[111, 143],[111, 144],[111, 145],[111, 146],[111, 147],[111, 148],[111, 150],[111, 151],[111, 152],[111, 153],[111, 154],[111, 155],[111, 156],[111, 157],[111, 158],[111, 160],[111, 164],[111, 167],[111, 169],[111, 179],[112, 113],[112, 114],[112, 115],[112, 117],[112, 118],[112, 119],[112, 120],[112, 123],[112, 124],[112, 125],[112, 129],[112, 130],[112, 131],[112, 138],[112, 143],[112, 144],[112, 148],[112, 154],[112, 155],[112, 157],[112, 158],[112, 160],[112, 164],[112, 167],[112, 169],[112, 179],[113, 114],[113, 115],[113, 117],[113, 118],[113, 119],[113, 120],[113, 121],[113, 122],[113, 123],[113, 124],[113, 125],[113, 126],[113, 128],[113, 129],[113, 130],[113, 131],[113, 132],[113, 133],[113, 134],[113, 135],[113, 136],[113, 137],[113, 138],[113, 139],[113, 140],[113, 141],[113, 142],[113, 143],[113, 144],[113, 145],[113, 146],[113, 147],[113, 148],[113, 150],[113, 151],[113, 152],[113, 153],[113, 154],[113, 155],[113, 156],[113, 157],[113, 158],[113, 159],[113, 160],[113, 161],[113, 162],[113, 163],[113, 164],[113, 165],[113, 166],[113, 167],[113, 168],[113, 169],[113, 170],[113, 172],[113, 173],[113, 174],[113, 175],[113, 176],[113, 177],[113, 178],[113, 179],[113, 180],[113, 181],[114, 115],[114, 117],[114, 118],[114, 119],[114, 120],[114, 121],[114, 122],[114, 123],[114, 124],[114, 125],[114, 126],[114, 128],[114, 129],[114, 130],[114, 131],[114, 132],[114, 133],[114, 134],[114, 135],[114, 136],[114, 137],[114, 138],[114, 139],[114, 140],[114, 141],[114, 142],[114, 143],[114, 144],[114, 145],[114, 146],[114, 147],[114, 148],[114, 150],[114, 151],[114, 152],[114, 153],[114, 154],[114, 155],[114, 156],[114, 157],[114, 158],[114, 159],[114, 160],[114, 161],[114, 162],[114, 163],[114, 164],[114, 165],[114, 166],[114, 167],[114, 168],[114, 169],[114, 170],[114, 172],[114, 173],[114, 174],[114, 175],[114, 176],[114, 177],[114, 178],[114, 179],[114, 180],[114, 181],[115, 117],[115, 118],[115, 119],[115, 120],[115, 122],[115, 123],[115, 124],[115, 125],[115, 126],[115, 128],[115, 129],[115, 130],[115, 131],[115, 132],[115, 133],[115, 134],[115, 135],[115, 136],[115, 137],[115, 138],[115, 139],[115, 140],[115, 141],[115, 142],[115, 143],[115, 144],[115, 145],[115, 146],[115, 147],[115, 148],[115, 150],[115, 151],[115, 152],[115, 153],[115, 154],[115, 155],[115, 156],[115, 157],[115, 158],[115, 159],[115, 160],[115, 161],[115, 162],[115, 163],[115, 164],[115, 165],[115, 166],[115, 167],[115, 168],[115, 169],[115, 170],[115, 172],[115, 173],[115, 174],[115, 175],[115, 176],[115, 177],[115, 178],[115, 179],[115, 180],[115, 181],[116, 119],[116, 120],[116, 123],[116, 124],[116, 125],[116, 127],[116, 129],[116, 130],[116, 131],[116, 138],[116, 143],[116, 144],[116, 148],[116, 149],[116, 154],[116, 155],[116, 157],[116, 158],[116, 160],[116, 164],[116, 167],[116, 169],[116, 179],[117, 118],[117, 119],[117, 120],[117, 121],[117, 122],[117, 123],[117, 124],[117, 125],[117, 129],[117, 130],[117, 131],[117, 138],[117, 143],[117, 144],[117, 148],[117, 154],[117, 155],[117, 157],[117, 158],[117, 160],[117, 164],[117, 167],[117, 169],[117, 179],[118, 119],[118, 120],[118, 123],[118, 124],[118, 125],[118, 129],[118, 130],[118, 131],[118, 138],[118, 143],[118, 144],[118, 148],[118, 154],[118, 155],[118, 157],[118, 158],[118, 160],[118, 164],[118, 167],[118, 169],[118, 179],[119, 120],[119, 121],[119, 122],[119, 123],[119, 124],[119, 125],[119, 126],[119, 127],[119, 128],[119, 129],[119, 130],[119, 131],[119, 132],[119, 133],[119, 134],[119, 135],[119, 136],[119, 137],[119, 138],[119, 139],[119, 140],[119, 141],[119, 142],[119, 143],[119, 144],[119, 145],[119, 146],[119, 147],[119, 148],[119, 149],[119, 150],[119, 151],[119, 152],[119, 153],[119, 154],[119, 155],[119, 156],[119, 157],[119, 158],[119, 159],[119, 160],[119, 161],[119, 162],[119, 163],[119, 164],[119, 165],[119, 166],[119, 167],[119, 168],[119, 169],[119, 170],[119, 171],[119, 172],[119, 173],[119, 174],[119, 175],[119, 176],[119, 177],[119, 178],[119, 179],[119, 180],[119, 181],[120, 121],[120, 122],[120, 123],[120, 124],[120, 125],[120, 126],[120, 127],[120, 128],[120, 129],[120, 130],[120, 131],[120, 132],[120, 133],[120, 134],[120, 135],[120, 136],[120, 137],[120, 138],[120, 139],[120, 140],[120, 141],[120, 142],[120, 143],[120, 144],[120, 145],[120, 146],[120, 147],[120, 148],[120, 149],[120, 150],[120, 151],[120, 152],[120, 153],[120, 154],[120, 155],[120, 156],[120, 157],[120, 158],[120, 159],[120, 160],[120, 161],[120, 162],[120, 163],[120, 164],[120, 165],[120, 166],[120, 167],[120, 168],[120, 169],[120, 171],[120, 179],[121, 122],[121, 123],[121, 124],[121, 129],[121, 130],[121, 131],[121, 138],[121, 143],[121, 144],[121, 148],[121, 154],[121, 155],[121, 157],[121, 158],[121, 160],[121, 164],[121, 167],[121, 169],[121, 179],[122, 129],[122, 130],[122, 131],[122, 138],[122, 143],[122, 144],[122, 148],[122, 154],[122, 155],[122, 157],[122, 158],[122, 160],[122, 164],[122, 167],[122, 169],[122, 179],[123, 124],[123, 125],[123, 126],[123, 127],[123, 128],[123, 129],[123, 130],[123, 131],[123, 138],[123, 143],[123, 144],[123, 148],[123, 149],[123, 154],[123, 155],[123, 157],[123, 158],[123, 160],[123, 164],[123, 167],[123, 169],[123, 171],[123, 179],[124, 125],[124, 126],[124, 127],[124, 129],[124, 130],[124, 131],[124, 138],[124, 143],[124, 144],[124, 148],[124, 149],[124, 154],[124, 155],[124, 157],[124, 158],[124, 160],[124, 164],[124, 167],[124, 169],[124, 171],[124, 179],[125, 126],[125, 127],[125, 128],[125, 129],[125, 138],[125, 143],[125, 144],[125, 148],[125, 149],[125, 154],[125, 155],[125, 157],[125, 158],[125, 160],[125, 164],[125, 167],[125, 169],[125, 171],[125, 179],[126, 138],[126, 143],[126, 144],[126, 148],[126, 154],[126, 155],[126, 157],[126, 158],[126, 160],[126, 164],[126, 167],[126, 169],[126, 179],[127, 129],[127, 130],[127, 131],[127, 143],[127, 144],[127, 148],[127, 154],[127, 155],[127, 157],[127, 158],[127, 164],[127, 167],[127, 169],[127, 179],[128, 129],[128, 130],[128, 138],[128, 143],[128, 144],[128, 148],[128, 154],[128, 155],[128, 157],[128, 158],[128, 160],[128, 164],[128, 167],[128, 169],[128, 179],[129, 130],[129, 131],[129, 132],[129, 133],[129, 134],[129, 135],[129, 136],[129, 137],[129, 138],[129, 139],[129, 140],[129, 141],[129, 142],[129, 143],[129, 144],[129, 145],[129, 146],[129, 147],[129, 148],[129, 149],[129, 150],[129, 151],[129, 152],[129, 153],[129, 154],[129, 155],[129, 156],[129, 157],[129, 158],[129, 159],[129, 160],[129, 161],[129, 162],[129, 163],[129, 164],[129, 165],[129, 166],[129, 167],[129, 168],[129, 169],[129, 170],[129, 171],[129, 172],[129, 173],[129, 174],[129, 175],[129, 176],[129, 177],[129, 178],[129, 179],[129, 180],[129, 181],[130, 131],[130, 132],[130, 133],[130, 134],[130, 135],[130, 136],[130, 137],[130, 138],[130, 139],[130, 140],[130, 141],[130, 142],[130, 143],[130, 144],[130, 145],[130, 146],[130, 147],[130, 148],[130, 149],[130, 150],[130, 151],[130, 152],[130, 153],[130, 154],[130, 155],[130, 156],[130, 157],[130, 158],[130, 159],[130, 160],[130, 161],[130, 162],[130, 163],[130, 164],[130, 165],[130, 166],[130, 167],[130, 168],[130, 169],[130, 170],[130, 171],[130, 172],[130, 173],[130, 174],[130, 175],[130, 176],[130, 177],[130, 178],[130, 179],[130, 180],[130, 181],[131, 132],[131, 133],[131, 134],[131, 135],[131, 136],[131, 137],[131, 138],[131, 139],[131, 140],[131, 141],[131, 142],[131, 143],[131, 144],[131, 145],[131, 146],[131, 147],[131, 148],[131, 149],[131, 150],[131, 151],[131, 152],[131, 153],[131, 154],[131, 155],[131, 156],[131, 157],[131, 158],[131, 159],[131, 160],[131, 164],[131, 167],[131, 169],[131, 171],[131, 179],[132, 133],[132, 134],[132, 135],[132, 136],[132, 137],[132, 138],[132, 139],[132, 140],[132, 141],[132, 142],[132, 143],[132, 144],[132, 145],[132, 146],[132, 147],[132, 148],[132, 150],[132, 151],[132, 154],[132, 155],[132, 157],[132, 158],[132, 160],[132, 164],[132, 167],[132, 169],[132, 179],[133, 134],[133, 135],[133, 136],[133, 137],[133, 138],[133, 139],[133, 140],[133, 141],[133, 142],[133, 143],[133, 144],[133, 148],[133, 154],[133, 155],[133, 157],[133, 158],[133, 160],[133, 164],[133, 167],[133, 169],[133, 179],[134, 135],[134, 136],[134, 137],[134, 138],[134, 139],[134, 140],[134, 141],[134, 142],[134, 143],[134, 144],[134, 148],[134, 154],[134, 155],[134, 157],[134, 158],[134, 160],[134, 164],[134, 167],[134, 169],[134, 179],[135, 136],[135, 137],[135, 138],[135, 139],[135, 140],[135, 141],[135, 142],[135, 143],[135, 144],[135, 145],[135, 146],[135, 147],[135, 148],[135, 150],[135, 151],[135, 152],[135, 153],[135, 154],[135, 155],[135, 156],[135, 157],[135, 158],[135, 159],[135, 160],[135, 161],[135, 162],[135, 163],[135, 164],[135, 165],[135, 166],[135, 167],[135, 168],[135, 169],[135, 170],[135, 172],[135, 173],[135, 174],[135, 175],[135, 176],[135, 177],[135, 178],[135, 179],[135, 180],[135, 181],[136, 138],[136, 143],[136, 144],[136, 148],[136, 154],[136, 155],[136, 157],[136, 158],[136, 160],[136, 164],[136, 167],[136, 169],[136, 179],[137, 138],[137, 139],[137, 140],[137, 141],[137, 142],[137, 143],[137, 144],[137, 148],[137, 154],[137, 155],[137, 157],[137, 158],[137, 160],[137, 164],[137, 167],[137, 169],[137, 179],[138, 139],[138, 140],[138, 141],[138, 142],[138, 143],[138, 144],[138, 145],[138, 146],[138, 147],[138, 148],[138, 149],[138, 154],[138, 155],[138, 157],[138, 158],[138, 160],[138, 164],[138, 167],[138, 169],[138, 171],[138, 179],[139, 143],[139, 144],[139, 148],[139, 154],[139, 155],[139, 157],[139, 158],[139, 160],[139, 164],[139, 167],[139, 169],[139, 179],[140, 141],[140, 142],[140, 143],[140, 144],[140, 145],[140, 146],[140, 147],[140, 148],[140, 150],[140, 151],[140, 152],[140, 153],[140, 154],[140, 155],[140, 156],[140, 157],[140, 158],[140, 159],[140, 160],[140, 161],[140, 162],[140, 163],[140, 164],[140, 165],[140, 166],[140, 167],[140, 169],[140, 179],[141, 144],[141, 148],[141, 154],[141, 155],[141, 157],[141, 158],[141, 160],[141, 164],[141, 167],[141, 169],[141, 179],[142, 143],[142, 144],[142, 148],[142, 154],[142, 155],[142, 157],[142, 158],[142, 160],[142, 164],[142, 167],[142, 169],[142, 179],[143, 144],[143, 145],[143, 148],[143, 149],[143, 154],[143, 155],[143, 157],[143, 158],[143, 160],[143, 164],[143, 167],[143, 169],[143, 171],[143, 179],[144, 145],[144, 146],[144, 148],[144, 149],[144, 154],[144, 155],[144, 157],[144, 158],[144, 160],[144, 164],[144, 167],[144, 169],[144, 171],[144, 179],[145, 148],[145, 154],[145, 155],[145, 157],[145, 158],[145, 160],[145, 164],[145, 167],[145, 169],[145, 179],[146, 147],[146, 148],[146, 150],[146, 151],[146, 152],[146, 154],[146, 155],[146, 157],[146, 158],[146, 160],[146, 164],[146, 167],[146, 169],[146, 179],[147, 148],[147, 154],[147, 155],[147, 157],[147, 158],[147, 160],[147, 164],[147, 167],[147, 169],[147, 179],[148, 149],[148, 150],[148, 151],[148, 154],[148, 155],[148, 157],[148, 158],[148, 160],[148, 164],[148, 167],[148, 169],[148, 171],[148, 179],[149, 154],[149, 155],[149, 157],[149, 158],[149, 160],[149, 164],[149, 167],[149, 169],[149, 171],[149, 179],[150, 154],[150, 155],[150, 157],[150, 158],[150, 160],[150, 164],[150, 167],[150, 169],[150, 179],[151, 152],[151, 153],[151, 154],[151, 155],[151, 156],[151, 157],[151, 158],[151, 159],[151, 160],[151, 161],[151, 162],[151, 163],[151, 164],[151, 165],[151, 166],[151, 167],[151, 168],[151, 169],[151, 170],[151, 172],[151, 173],[151, 174],[151, 175],[151, 176],[151, 177],[151, 178],[151, 179],[151, 180],[151, 181],[152, 153],[152, 154],[152, 155],[152, 157],[152, 158],[152, 160],[152, 164],[152, 167],[152, 169],[152, 179],[153, 154],[153, 155],[153, 157],[153, 158],[153, 160],[153, 164],[153, 167],[153, 169],[153, 179],[154, 155],[154, 156],[154, 157],[154, 158],[154, 159],[154, 160],[154, 161],[154, 162],[154, 163],[154, 164],[154, 165],[154, 166],[154, 167],[154, 168],[154, 169],[154, 170],[154, 171],[154, 172],[154, 173],[154, 174],[154, 175],[154, 176],[154, 177],[154, 178],[154, 179],[154, 180],[154, 181],[155, 156],[155, 157],[155, 158],[155, 160],[155, 164],[155, 167],[155, 169],[155, 171],[155, 179],[156, 157],[156, 158],[156, 164],[156, 167],[156, 169],[156, 179],[157, 158],[157, 159],[157, 160],[157, 161],[157, 162],[157, 163],[157, 164],[157, 165],[157, 166],[157, 167],[157, 168],[157, 169],[157, 170],[157, 171],[157, 172],[157, 173],[157, 174],[157, 175],[157, 176],[157, 177],[157, 178],[157, 179],[157, 180],[157, 181],[158, 159],[158, 160],[158, 161],[158, 162],[158, 163],[158, 164],[158, 165],[158, 166],[158, 167],[158, 168],[158, 169],[158, 170],[158, 171],[158, 179],[159, 164],[159, 167],[159, 169],[159, 179],[160, 164],[160, 167],[160, 169],[160, 171],[160, 179],[161, 162],[161, 163],[161, 164],[161, 165],[161, 166],[161, 167],[161, 168],[161, 169],[161, 170],[161, 172],[161, 173],[161, 174],[161, 175],[161, 176],[161, 177],[161, 178],[161, 179],[161, 180],[161, 181],[162, 179],[163, 179],[164, 165],[164, 166],[164, 167],[164, 168],[164, 169],[164, 170],[164, 171],[164, 172],[164, 173],[164, 174],[164, 175],[164, 176],[164, 177],[164, 178],[164, 179],[164, 180],[164, 181],[165, 179],[166, 179],[167, 168],[167, 169],[167, 171],[167, 179],[168, 179],[169, 170],[169, 171],[169, 172],[169, 179],[170, 172],[170, 173],[170, 174],[170, 175],[170, 176],[170, 177],[170, 178],[170, 179],[170, 180],[170, 181],[171, 179],[172, 179],[173, 174],[173, 175],[173, 176],[173, 177],[173, 178],[173, 179],[173, 180],[173, 181],[174, 179],[175, 177],[175, 178],[175, 179],[176, 177],[176, 178],[176, 179],[176, 180],[176, 181],[177, 178],[177, 179],[177, 180],[177, 181],[178, 179],[178, 180],[178, 181],[179, 180],[179, 181]],
+  "move_edges": [
+    { "pair": [2, 168], "coalesce_safe": false },
+    { "pair": [13, 68], "coalesce_safe": false },
+    { "pair": [16, 17], "coalesce_safe": false },
+    { "pair": [22, 107], "coalesce_safe": false },
+    { "pair": [26, 78], "coalesce_safe": false },
+    { "pair": [31, 34], "coalesce_safe": false },
+    { "pair": [35, 36], "coalesce_safe": false },
+    { "pair": [44, 48], "coalesce_safe": false },
+    { "pair": [44, 50], "coalesce_safe": false },
+    { "pair": [44, 92], "coalesce_safe": false },
+    { "pair": [55, 58], "coalesce_safe": false },
+    { "pair": [68, 90], "coalesce_safe": false },
+    { "pair": [75, 76], "coalesce_safe": false },
+    { "pair": [81, 96], "coalesce_safe": false },
+    { "pair": [104, 108], "coalesce_safe": false },
+    { "pair": [104, 149], "coalesce_safe": false },
+    { "pair": [115, 121], "coalesce_safe": false },
+    { "pair": [117, 123], "coalesce_safe": false },
+    { "pair": [125, 130], "coalesce_safe": false },
+    { "pair": [153, 154], "coalesce_safe": false },
+    { "pair": [175, 176], "coalesce_safe": false }
+  ]
+}

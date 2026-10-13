@@ -1,0 +1,1125 @@
+{
+  "program_name": "func_v11_5506",
+  "num_registers": 4,
+  "instructions": [
+    "L00: v0 = const_32",
+    "L01: v1 = const_18",
+    "L02: v2 = const_87",
+    "L_loop_start_0:",
+    "L04: v0 = v6 - const_1",
+    "L05: IF v0 == const_1 GOTO L_loop_end_0",
+    "L06: v1 = v3 * v3",
+    "L07: v9 = v0 + v8",
+    "L08: JUMP L_loop_start_0",
+    "L_loop_end_0:",
+    "L10: v8 = v6 - v3",
+    "L11: MOVE v0 <- v3",
+    "L12: MOVE v5 <- v4",
+    "L_loop_start_1:",
+    "L14: v1 = v5 - const_1",
+    "L15: IF v1 == const_1 GOTO L_loop_end_1",
+    "L16: v6 = v1 - v5",
+    "L17: v9 = v4 * v0",
+    "L18: JUMP L_loop_start_1",
+    "L_loop_end_1:",
+    "L20: MOVE v1 <- v7",
+    "L21: MOVE v4 <- v10",
+    "L22: v5 = v9 * v3",
+    "L23: RETURN v1"
+  ],
+  "cfg_blocks": [
+    {
+      "block_id": 0,
+      "label": null,
+      "loop_depth": 0,
+      "instructions": [
+        "L00: v0 = const_32",
+        "L01: v1 = const_18",
+        "L02: v2 = const_87"
+      ],
+      "successors": [
+        1
+      ]
+    },
+    {
+      "block_id": 1,
+      "label": "L_loop_start_0",
+      "loop_depth": 1,
+      "instructions": [
+        "L_loop_start_0:",
+        "L04: v0 = v6 - const_1",
+        "L05: IF v0 == const_1 GOTO L_loop_end_0"
+      ],
+      "successors": [
+        2,
+        3
+      ]
+    },
+    {
+      "block_id": 2,
+      "label": null,
+      "loop_depth": 1,
+      "instructions": [
+        "L06: v1 = v3 * v3",
+        "L07: v9 = v0 + v8",
+        "L08: JUMP L_loop_start_0"
+      ],
+      "successors": [
+        1
+      ]
+    },
+    {
+      "block_id": 3,
+      "label": "L_loop_end_0",
+      "loop_depth": 0,
+      "instructions": [
+        "L_loop_end_0:",
+        "L10: v8 = v6 - v3",
+        "L11: MOVE v0 <- v3",
+        "L12: MOVE v5 <- v4"
+      ],
+      "successors": [
+        4
+      ]
+    },
+    {
+      "block_id": 4,
+      "label": "L_loop_start_1",
+      "loop_depth": 1,
+      "instructions": [
+        "L_loop_start_1:",
+        "L14: v1 = v5 - const_1",
+        "L15: IF v1 == const_1 GOTO L_loop_end_1"
+      ],
+      "successors": [
+        5,
+        6
+      ]
+    },
+    {
+      "block_id": 5,
+      "label": null,
+      "loop_depth": 1,
+      "instructions": [
+        "L16: v6 = v1 - v5",
+        "L17: v9 = v4 * v0",
+        "L18: JUMP L_loop_start_1"
+      ],
+      "successors": [
+        4
+      ]
+    },
+    {
+      "block_id": 6,
+      "label": "L_loop_end_1",
+      "loop_depth": 0,
+      "instructions": [
+        "L_loop_end_1:",
+        "L20: MOVE v1 <- v7",
+        "L21: MOVE v4 <- v10",
+        "L22: v5 = v9 * v3",
+        "L23: RETURN v1"
+      ],
+      "successors": []
+    }
+  ],
+  "nodes": [
+    {
+      "id": "v0",
+      "spill_cost": 42.0,
+      "loop_depth": 1,
+      "degree": 9,
+      "move_degree": 1,
+      "assignments": {
+        "rgcn": "R0",
+        "rgat": "SPILL",
+        "rsage": "SPILL",
+        "gin": "SPILL",
+        "chaitin_briggs": "R3",
+        "random": "R3"
+      }
+    },
+    {
+      "id": "v1",
+      "spill_cost": 43.0,
+      "loop_depth": 1,
+      "degree": 9,
+      "move_degree": 1,
+      "assignments": {
+        "rgcn": "R1",
+        "rgat": "SPILL",
+        "rsage": "R3",
+        "gin": "SPILL",
+        "chaitin_briggs": "R2",
+        "random": "R2"
+      }
+    },
+    {
+      "id": "v2",
+      "spill_cost": 1.0,
+      "loop_depth": 0,
+      "degree": 7,
+      "move_degree": 0,
+      "assignments": {
+        "rgcn": "SPILL",
+        "rgat": "SPILL",
+        "rsage": "SPILL",
+        "gin": "SPILL",
+        "chaitin_briggs": "R2",
+        "random": "R3"
+      }
+    },
+    {
+      "id": "v3",
+      "spill_cost": 13.0,
+      "loop_depth": 1,
+      "degree": 8,
+      "move_degree": 1,
+      "assignments": {
+        "rgcn": "SPILL",
+        "rgat": "SPILL",
+        "rsage": "SPILL",
+        "gin": "SPILL",
+        "chaitin_briggs": "SPILL",
+        "random": "R2"
+      }
+    },
+    {
+      "id": "v4",
+      "spill_cost": 12.0,
+      "loop_depth": 1,
+      "degree": 7,
+      "move_degree": 2,
+      "assignments": {
+        "rgcn": "R2",
+        "rgat": "SPILL",
+        "rsage": "SPILL",
+        "gin": "SPILL",
+        "chaitin_briggs": "SPILL",
+        "random": "R3"
+      }
+    },
+    {
+      "id": "v5",
+      "spill_cost": 22.0,
+      "loop_depth": 1,
+      "degree": 7,
+      "move_degree": 1,
+      "assignments": {
+        "rgcn": "R2",
+        "rgat": "SPILL",
+        "rsage": "SPILL",
+        "gin": "SPILL",
+        "chaitin_briggs": "R1",
+        "random": "R0"
+      }
+    },
+    {
+      "id": "v6",
+      "spill_cost": 21.0,
+      "loop_depth": 1,
+      "degree": 9,
+      "move_degree": 0,
+      "assignments": {
+        "rgcn": "SPILL",
+        "rgat": "SPILL",
+        "rsage": "SPILL",
+        "gin": "SPILL",
+        "chaitin_briggs": "SPILL",
+        "random": "R2"
+      }
+    },
+    {
+      "id": "v7",
+      "spill_cost": 1.0,
+      "loop_depth": 0,
+      "degree": 7,
+      "move_degree": 1,
+      "assignments": {
+        "rgcn": "SPILL",
+        "rgat": "SPILL",
+        "rsage": "SPILL",
+        "gin": "SPILL",
+        "chaitin_briggs": "SPILL",
+        "random": "R0"
+      }
+    },
+    {
+      "id": "v8",
+      "spill_cost": 11.0,
+      "loop_depth": 1,
+      "degree": 8,
+      "move_degree": 0,
+      "assignments": {
+        "rgcn": "R3",
+        "rgat": "SPILL",
+        "rsage": "SPILL",
+        "gin": "SPILL",
+        "chaitin_briggs": "R1",
+        "random": "R1"
+      }
+    },
+    {
+      "id": "v9",
+      "spill_cost": 21.0,
+      "loop_depth": 1,
+      "degree": 10,
+      "move_degree": 0,
+      "assignments": {
+        "rgcn": "SPILL",
+        "rgat": "SPILL",
+        "rsage": "SPILL",
+        "gin": "SPILL",
+        "chaitin_briggs": "R0",
+        "random": "R0"
+      }
+    },
+    {
+      "id": "v10",
+      "spill_cost": 1.0,
+      "loop_depth": 0,
+      "degree": 7,
+      "move_degree": 1,
+      "assignments": {
+        "rgcn": "SPILL",
+        "rgat": "SPILL",
+        "rsage": "SPILL",
+        "gin": "SPILL",
+        "chaitin_briggs": "SPILL",
+        "random": "R2"
+      }
+    }
+  ],
+  "interference_edges": [
+    {
+      "source": "v0",
+      "target": "v7",
+      "type": "interference"
+    },
+    {
+      "source": "v1",
+      "target": "v7",
+      "type": "interference"
+    },
+    {
+      "source": "v3",
+      "target": "v9",
+      "type": "interference"
+    },
+    {
+      "source": "v10",
+      "target": "v5",
+      "type": "interference"
+    },
+    {
+      "source": "v0",
+      "target": "v3",
+      "type": "interference"
+    },
+    {
+      "source": "v0",
+      "target": "v4",
+      "type": "interference"
+    },
+    {
+      "source": "v1",
+      "target": "v4",
+      "type": "interference"
+    },
+    {
+      "source": "v1",
+      "target": "v3",
+      "type": "interference"
+    },
+    {
+      "source": "v7",
+      "target": "v8",
+      "type": "interference"
+    },
+    {
+      "source": "v0",
+      "target": "v1",
+      "type": "interference"
+    },
+    {
+      "source": "v2",
+      "target": "v7",
+      "type": "interference"
+    },
+    {
+      "source": "v0",
+      "target": "v5",
+      "type": "interference"
+    },
+    {
+      "source": "v1",
+      "target": "v5",
+      "type": "interference"
+    },
+    {
+      "source": "v7",
+      "target": "v9",
+      "type": "interference"
+    },
+    {
+      "source": "v2",
+      "target": "v3",
+      "type": "interference"
+    },
+    {
+      "source": "v2",
+      "target": "v4",
+      "type": "interference"
+    },
+    {
+      "source": "v3",
+      "target": "v4",
+      "type": "interference"
+    },
+    {
+      "source": "v6",
+      "target": "v9",
+      "type": "interference"
+    },
+    {
+      "source": "v5",
+      "target": "v6",
+      "type": "interference"
+    },
+    {
+      "source": "v3",
+      "target": "v5",
+      "type": "interference"
+    },
+    {
+      "source": "v6",
+      "target": "v7",
+      "type": "interference"
+    },
+    {
+      "source": "v10",
+      "target": "v6",
+      "type": "interference"
+    },
+    {
+      "source": "v10",
+      "target": "v2",
+      "type": "interference"
+    },
+    {
+      "source": "v0",
+      "target": "v6",
+      "type": "interference"
+    },
+    {
+      "source": "v1",
+      "target": "v6",
+      "type": "interference"
+    },
+    {
+      "source": "v4",
+      "target": "v6",
+      "type": "interference"
+    },
+    {
+      "source": "v2",
+      "target": "v6",
+      "type": "interference"
+    },
+    {
+      "source": "v3",
+      "target": "v8",
+      "type": "interference"
+    },
+    {
+      "source": "v3",
+      "target": "v6",
+      "type": "interference"
+    },
+    {
+      "source": "v5",
+      "target": "v9",
+      "type": "interference"
+    },
+    {
+      "source": "v10",
+      "target": "v8",
+      "type": "interference"
+    },
+    {
+      "source": "v8",
+      "target": "v9",
+      "type": "interference"
+    },
+    {
+      "source": "v10",
+      "target": "v9",
+      "type": "interference"
+    },
+    {
+      "source": "v0",
+      "target": "v8",
+      "type": "interference"
+    },
+    {
+      "source": "v0",
+      "target": "v10",
+      "type": "interference"
+    },
+    {
+      "source": "v1",
+      "target": "v8",
+      "type": "interference"
+    },
+    {
+      "source": "v1",
+      "target": "v10",
+      "type": "interference"
+    },
+    {
+      "source": "v5",
+      "target": "v7",
+      "type": "interference"
+    },
+    {
+      "source": "v0",
+      "target": "v9",
+      "type": "interference"
+    },
+    {
+      "source": "v1",
+      "target": "v9",
+      "type": "interference"
+    },
+    {
+      "source": "v4",
+      "target": "v8",
+      "type": "interference"
+    },
+    {
+      "source": "v4",
+      "target": "v9",
+      "type": "interference"
+    },
+    {
+      "source": "v2",
+      "target": "v8",
+      "type": "interference"
+    },
+    {
+      "source": "v2",
+      "target": "v9",
+      "type": "interference"
+    }
+  ],
+  "coalescing_edges": [
+    {
+      "source": "v0",
+      "target": "v3",
+      "type": "coalescing"
+    },
+    {
+      "source": "v10",
+      "target": "v4",
+      "type": "coalescing"
+    },
+    {
+      "source": "v1",
+      "target": "v7",
+      "type": "coalescing"
+    },
+    {
+      "source": "v4",
+      "target": "v5",
+      "type": "coalescing"
+    }
+  ],
+  "model_keys": [
+    "rgcn",
+    "rgat",
+    "rsage",
+    "gin",
+    "chaitin_briggs",
+    "random"
+  ],
+  "model_stats": {
+    "rgcn": {
+      "spills": 6,
+      "spill_cost": 58.0,
+      "moves_eliminated": 1,
+      "move_elim_rate_pct": 25.0,
+      "inference_time_ms": 12.88
+    },
+    "rgat": {
+      "spills": 11,
+      "spill_cost": 188.0,
+      "moves_eliminated": 0,
+      "move_elim_rate_pct": 0.0,
+      "inference_time_ms": 16.53
+    },
+    "rsage": {
+      "spills": 10,
+      "spill_cost": 145.0,
+      "moves_eliminated": 0,
+      "move_elim_rate_pct": 0.0,
+      "inference_time_ms": 5.89
+    },
+    "gin": {
+      "spills": 11,
+      "spill_cost": 188.0,
+      "moves_eliminated": 0,
+      "move_elim_rate_pct": 0.0,
+      "inference_time_ms": 6.78
+    },
+    "chaitin_briggs": {
+      "spills": 5,
+      "spill_cost": 48.0,
+      "moves_eliminated": 0,
+      "move_elim_rate_pct": 0.0,
+      "inference_time_ms": 1.15
+    },
+    "random": {
+      "spills": 0,
+      "spill_cost": 0,
+      "moves_eliminated": 0,
+      "move_elim_rate_pct": 0.0,
+      "inference_time_ms": 0.03
+    }
+  },
+  "register_agreement_matrix": {
+    "rgcn": {
+      "rgcn": 100.0,
+      "rgat": 54.5,
+      "rsage": 54.5,
+      "gin": 54.5,
+      "chaitin_briggs": 0.0,
+      "random": 0.0
+    },
+    "rgat": {
+      "rgcn": 54.5,
+      "rgat": 100.0,
+      "rsage": 90.9,
+      "gin": 100.0,
+      "chaitin_briggs": 0.0,
+      "random": 0.0
+    },
+    "rsage": {
+      "rgcn": 54.5,
+      "rgat": 90.9,
+      "rsage": 100.0,
+      "gin": 90.9,
+      "chaitin_briggs": 0.0,
+      "random": 0.0
+    },
+    "gin": {
+      "rgcn": 54.5,
+      "rgat": 100.0,
+      "rsage": 90.9,
+      "gin": 100.0,
+      "chaitin_briggs": 0.0,
+      "random": 0.0
+    },
+    "chaitin_briggs": {
+      "rgcn": 0.0,
+      "rgat": 0.0,
+      "rsage": 0.0,
+      "gin": 0.0,
+      "chaitin_briggs": 100.0,
+      "random": 36.4
+    },
+    "random": {
+      "rgcn": 0.0,
+      "rgat": 0.0,
+      "rsage": 0.0,
+      "gin": 0.0,
+      "chaitin_briggs": 36.4,
+      "random": 100.0
+    }
+  },
+  "spill_agreement_matrix": {
+    "rgcn": {
+      "rgcn": 100.0,
+      "rgat": 54.5,
+      "rsage": 63.6,
+      "gin": 54.5,
+      "chaitin_briggs": 72.7,
+      "random": 45.5
+    },
+    "rgat": {
+      "rgcn": 54.5,
+      "rgat": 100.0,
+      "rsage": 90.9,
+      "gin": 100.0,
+      "chaitin_briggs": 45.5,
+      "random": 0.0
+    },
+    "rsage": {
+      "rgcn": 63.6,
+      "rgat": 90.9,
+      "rsage": 100.0,
+      "gin": 90.9,
+      "chaitin_briggs": 54.5,
+      "random": 9.1
+    },
+    "gin": {
+      "rgcn": 54.5,
+      "rgat": 100.0,
+      "rsage": 90.9,
+      "gin": 100.0,
+      "chaitin_briggs": 45.5,
+      "random": 0.0
+    },
+    "chaitin_briggs": {
+      "rgcn": 72.7,
+      "rgat": 45.5,
+      "rsage": 54.5,
+      "gin": 45.5,
+      "chaitin_briggs": 100.0,
+      "random": 54.5
+    },
+    "random": {
+      "rgcn": 45.5,
+      "rgat": 0.0,
+      "rsage": 9.1,
+      "gin": 0.0,
+      "chaitin_briggs": 54.5,
+      "random": 100.0
+    }
+  },
+  "spill_confusion_matrices": {
+    "rgcn": {
+      "rgcn": {
+        "both_spill": 6,
+        "m1_spill_only": 0,
+        "m2_spill_only": 0,
+        "neither_spill": 5
+      },
+      "rgat": {
+        "both_spill": 6,
+        "m1_spill_only": 0,
+        "m2_spill_only": 5,
+        "neither_spill": 0
+      },
+      "rsage": {
+        "both_spill": 6,
+        "m1_spill_only": 0,
+        "m2_spill_only": 4,
+        "neither_spill": 1
+      },
+      "gin": {
+        "both_spill": 6,
+        "m1_spill_only": 0,
+        "m2_spill_only": 5,
+        "neither_spill": 0
+      },
+      "chaitin_briggs": {
+        "both_spill": 4,
+        "m1_spill_only": 2,
+        "m2_spill_only": 1,
+        "neither_spill": 4
+      },
+      "random": {
+        "both_spill": 0,
+        "m1_spill_only": 6,
+        "m2_spill_only": 0,
+        "neither_spill": 5
+      }
+    },
+    "rgat": {
+      "rgcn": {
+        "both_spill": 6,
+        "m1_spill_only": 5,
+        "m2_spill_only": 0,
+        "neither_spill": 0
+      },
+      "rgat": {
+        "both_spill": 11,
+        "m1_spill_only": 0,
+        "m2_spill_only": 0,
+        "neither_spill": 0
+      },
+      "rsage": {
+        "both_spill": 10,
+        "m1_spill_only": 1,
+        "m2_spill_only": 0,
+        "neither_spill": 0
+      },
+      "gin": {
+        "both_spill": 11,
+        "m1_spill_only": 0,
+        "m2_spill_only": 0,
+        "neither_spill": 0
+      },
+      "chaitin_briggs": {
+        "both_spill": 5,
+        "m1_spill_only": 6,
+        "m2_spill_only": 0,
+        "neither_spill": 0
+      },
+      "random": {
+        "both_spill": 0,
+        "m1_spill_only": 11,
+        "m2_spill_only": 0,
+        "neither_spill": 0
+      }
+    },
+    "rsage": {
+      "rgcn": {
+        "both_spill": 6,
+        "m1_spill_only": 4,
+        "m2_spill_only": 0,
+        "neither_spill": 1
+      },
+      "rgat": {
+        "both_spill": 10,
+        "m1_spill_only": 0,
+        "m2_spill_only": 1,
+        "neither_spill": 0
+      },
+      "rsage": {
+        "both_spill": 10,
+        "m1_spill_only": 0,
+        "m2_spill_only": 0,
+        "neither_spill": 1
+      },
+      "gin": {
+        "both_spill": 10,
+        "m1_spill_only": 0,
+        "m2_spill_only": 1,
+        "neither_spill": 0
+      },
+      "chaitin_briggs": {
+        "both_spill": 5,
+        "m1_spill_only": 5,
+        "m2_spill_only": 0,
+        "neither_spill": 1
+      },
+      "random": {
+        "both_spill": 0,
+        "m1_spill_only": 10,
+        "m2_spill_only": 0,
+        "neither_spill": 1
+      }
+    },
+    "gin": {
+      "rgcn": {
+        "both_spill": 6,
+        "m1_spill_only": 5,
+        "m2_spill_only": 0,
+        "neither_spill": 0
+      },
+      "rgat": {
+        "both_spill": 11,
+        "m1_spill_only": 0,
+        "m2_spill_only": 0,
+        "neither_spill": 0
+      },
+      "rsage": {
+        "both_spill": 10,
+        "m1_spill_only": 1,
+        "m2_spill_only": 0,
+        "neither_spill": 0
+      },
+      "gin": {
+        "both_spill": 11,
+        "m1_spill_only": 0,
+        "m2_spill_only": 0,
+        "neither_spill": 0
+      },
+      "chaitin_briggs": {
+        "both_spill": 5,
+        "m1_spill_only": 6,
+        "m2_spill_only": 0,
+        "neither_spill": 0
+      },
+      "random": {
+        "both_spill": 0,
+        "m1_spill_only": 11,
+        "m2_spill_only": 0,
+        "neither_spill": 0
+      }
+    },
+    "chaitin_briggs": {
+      "rgcn": {
+        "both_spill": 4,
+        "m1_spill_only": 1,
+        "m2_spill_only": 2,
+        "neither_spill": 4
+      },
+      "rgat": {
+        "both_spill": 5,
+        "m1_spill_only": 0,
+        "m2_spill_only": 6,
+        "neither_spill": 0
+      },
+      "rsage": {
+        "both_spill": 5,
+        "m1_spill_only": 0,
+        "m2_spill_only": 5,
+        "neither_spill": 1
+      },
+      "gin": {
+        "both_spill": 5,
+        "m1_spill_only": 0,
+        "m2_spill_only": 6,
+        "neither_spill": 0
+      },
+      "chaitin_briggs": {
+        "both_spill": 5,
+        "m1_spill_only": 0,
+        "m2_spill_only": 0,
+        "neither_spill": 6
+      },
+      "random": {
+        "both_spill": 0,
+        "m1_spill_only": 5,
+        "m2_spill_only": 0,
+        "neither_spill": 6
+      }
+    },
+    "random": {
+      "rgcn": {
+        "both_spill": 0,
+        "m1_spill_only": 0,
+        "m2_spill_only": 6,
+        "neither_spill": 5
+      },
+      "rgat": {
+        "both_spill": 0,
+        "m1_spill_only": 0,
+        "m2_spill_only": 11,
+        "neither_spill": 0
+      },
+      "rsage": {
+        "both_spill": 0,
+        "m1_spill_only": 0,
+        "m2_spill_only": 10,
+        "neither_spill": 1
+      },
+      "gin": {
+        "both_spill": 0,
+        "m1_spill_only": 0,
+        "m2_spill_only": 11,
+        "neither_spill": 0
+      },
+      "chaitin_briggs": {
+        "both_spill": 0,
+        "m1_spill_only": 0,
+        "m2_spill_only": 5,
+        "neither_spill": 6
+      },
+      "random": {
+        "both_spill": 0,
+        "m1_spill_only": 0,
+        "m2_spill_only": 0,
+        "neither_spill": 11
+      }
+    }
+  },
+  "coalescing_jaccard_matrix": {
+    "rgcn": {
+      "rgcn": 1.0,
+      "rgat": 0.0,
+      "rsage": 0.0,
+      "gin": 0.0,
+      "chaitin_briggs": 0.0,
+      "random": 0.0
+    },
+    "rgat": {
+      "rgcn": 0.0,
+      "rgat": 1.0,
+      "rsage": 1.0,
+      "gin": 1.0,
+      "chaitin_briggs": 1.0,
+      "random": 1.0
+    },
+    "rsage": {
+      "rgcn": 0.0,
+      "rgat": 1.0,
+      "rsage": 1.0,
+      "gin": 1.0,
+      "chaitin_briggs": 1.0,
+      "random": 1.0
+    },
+    "gin": {
+      "rgcn": 0.0,
+      "rgat": 1.0,
+      "rsage": 1.0,
+      "gin": 1.0,
+      "chaitin_briggs": 1.0,
+      "random": 1.0
+    },
+    "chaitin_briggs": {
+      "rgcn": 0.0,
+      "rgat": 1.0,
+      "rsage": 1.0,
+      "gin": 1.0,
+      "chaitin_briggs": 1.0,
+      "random": 1.0
+    },
+    "random": {
+      "rgcn": 0.0,
+      "rgat": 1.0,
+      "rsage": 1.0,
+      "gin": 1.0,
+      "chaitin_briggs": 1.0,
+      "random": 1.0
+    }
+  },
+  "disagreement_nodes": [
+    {
+      "var_name": "v0",
+      "loop_depth": 1,
+      "spill_cost": 42.0,
+      "degree": 9,
+      "votes": {
+        "rgcn": "R0",
+        "rgat": "SPILL",
+        "rsage": "SPILL",
+        "gin": "SPILL",
+        "chaitin_briggs": "R3",
+        "random": "R3"
+      }
+    },
+    {
+      "var_name": "v1",
+      "loop_depth": 1,
+      "spill_cost": 43.0,
+      "degree": 9,
+      "votes": {
+        "rgcn": "R1",
+        "rgat": "SPILL",
+        "rsage": "R3",
+        "gin": "SPILL",
+        "chaitin_briggs": "R2",
+        "random": "R2"
+      }
+    },
+    {
+      "var_name": "v2",
+      "loop_depth": 0,
+      "spill_cost": 1.0,
+      "degree": 7,
+      "votes": {
+        "rgcn": "SPILL",
+        "rgat": "SPILL",
+        "rsage": "SPILL",
+        "gin": "SPILL",
+        "chaitin_briggs": "R2",
+        "random": "R3"
+      }
+    },
+    {
+      "var_name": "v3",
+      "loop_depth": 1,
+      "spill_cost": 13.0,
+      "degree": 8,
+      "votes": {
+        "rgcn": "SPILL",
+        "rgat": "SPILL",
+        "rsage": "SPILL",
+        "gin": "SPILL",
+        "chaitin_briggs": "SPILL",
+        "random": "R2"
+      }
+    },
+    {
+      "var_name": "v4",
+      "loop_depth": 1,
+      "spill_cost": 12.0,
+      "degree": 7,
+      "votes": {
+        "rgcn": "R2",
+        "rgat": "SPILL",
+        "rsage": "SPILL",
+        "gin": "SPILL",
+        "chaitin_briggs": "SPILL",
+        "random": "R3"
+      }
+    },
+    {
+      "var_name": "v5",
+      "loop_depth": 1,
+      "spill_cost": 22.0,
+      "degree": 7,
+      "votes": {
+        "rgcn": "R2",
+        "rgat": "SPILL",
+        "rsage": "SPILL",
+        "gin": "SPILL",
+        "chaitin_briggs": "R1",
+        "random": "R0"
+      }
+    },
+    {
+      "var_name": "v6",
+      "loop_depth": 1,
+      "spill_cost": 21.0,
+      "degree": 9,
+      "votes": {
+        "rgcn": "SPILL",
+        "rgat": "SPILL",
+        "rsage": "SPILL",
+        "gin": "SPILL",
+        "chaitin_briggs": "SPILL",
+        "random": "R2"
+      }
+    },
+    {
+      "var_name": "v7",
+      "loop_depth": 0,
+      "spill_cost": 1.0,
+      "degree": 7,
+      "votes": {
+        "rgcn": "SPILL",
+        "rgat": "SPILL",
+        "rsage": "SPILL",
+        "gin": "SPILL",
+        "chaitin_briggs": "SPILL",
+        "random": "R0"
+      }
+    },
+    {
+      "var_name": "v8",
+      "loop_depth": 1,
+      "spill_cost": 11.0,
+      "degree": 8,
+      "votes": {
+        "rgcn": "R3",
+        "rgat": "SPILL",
+        "rsage": "SPILL",
+        "gin": "SPILL",
+        "chaitin_briggs": "R1",
+        "random": "R1"
+      }
+    },
+    {
+      "var_name": "v9",
+      "loop_depth": 1,
+      "spill_cost": 21.0,
+      "degree": 10,
+      "votes": {
+        "rgcn": "SPILL",
+        "rgat": "SPILL",
+        "rsage": "SPILL",
+        "gin": "SPILL",
+        "chaitin_briggs": "R0",
+        "random": "R0"
+      }
+    },
+    {
+      "var_name": "v10",
+      "loop_depth": 0,
+      "spill_cost": 1.0,
+      "degree": 7,
+      "votes": {
+        "rgcn": "SPILL",
+        "rgat": "SPILL",
+        "rsage": "SPILL",
+        "gin": "SPILL",
+        "chaitin_briggs": "SPILL",
+        "random": "R2"
+      }
+    }
+  ]
+}

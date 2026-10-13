@@ -1,0 +1,13 @@
+# Java build output
+compiler_side/target/
+compiler_side/out/
+*.class
+
+# Python runtime cache and checkpoints
+__pycache__/
+*.py[cod]
+results/*.pt
+
+# Test/tool caches
+.pytest_cache/
+.mypy_cache/

@@ -1,0 +1,31 @@
+seed: 42
+data:
+  root: data/generated
+  train: train
+  validation: val
+  test: test
+model:
+  architecture: gcn
+  in_channels: 5
+  hidden_channels: 64
+  num_layers: 3
+  dropout: 0.3
+training:
+  epochs: 100
+  batch_size: 16
+  learning_rate: 0.001
+  class_imbalance: "pos_weight = train_negative_nodes / train_positive_nodes"
+phase5_register_assignment:
+  max_registers: 16
+  spill_class: 16
+  invalid_register_logits: masked
+  repair: highest_degree_first
+phase6_comparison:
+  architectures: [gcn, sage, gat]
+  seeds: [0, 1, 2]
+  epoch_budget: 30
+  batch_size: 128
+  ablations: [no_loop_depth, no_move_related, no_live_range_length]
+phase7_benchmark:
+  test_graphs: 75
+  record: [spills, validity, single_graph_time, batched_inference_time]

@@ -1,0 +1,43 @@
+{
+  "num_registers": 4,
+  "num_test_programs": 20,
+  "mean_unanimous_pct": 74.6,
+  "metrics": {
+    "rgcn": {
+      "avg_spills": 12.45,
+      "avg_spill_cost": 237.1,
+      "move_elim_pct": 0.0,
+      "avg_time_ms": 13.56
+    },
+    "gat": {
+      "avg_spills": 15.65,
+      "avg_spill_cost": 377.1,
+      "move_elim_pct": 0.0,
+      "avg_time_ms": 11.83
+    },
+    "sage": {
+      "avg_spills": 15.65,
+      "avg_spill_cost": 377.1,
+      "move_elim_pct": 0.0,
+      "avg_time_ms": 10.96
+    },
+    "gcn": {
+      "avg_spills": 15.65,
+      "avg_spill_cost": 377.1,
+      "move_elim_pct": 0.0,
+      "avg_time_ms": 6.95
+    },
+    "consensus": {
+      "avg_spills": 11.0,
+      "avg_spill_cost": 229.95,
+      "move_elim_pct": 0.0,
+      "avg_time_ms": 6.39
+    },
+    "cb": {
+      "avg_spills": 7.65,
+      "avg_spill_cost": 162.8,
+      "move_elim_pct": 5.8,
+      "avg_time_ms": 1.5
+    }
+  }
+}
